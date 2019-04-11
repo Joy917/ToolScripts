@@ -1,0 +1,584 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,0.5,0.5,2,5,5,2,134
+Style: 大家字幕组,微软雅黑,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,70,100,6,0,1,0,0,2,10,10,10,1
+Style: 大家字幕组LOGO,微软雅黑,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: 二维码,微软雅黑,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:01:00.00,Default,,0,0,0,Banner;28;0;60,{\fs14\an8\shad0\bord0\fad(500,500)\c&HFFFFFF&\3c&HE28609&\3a&HDC&\pos(189,3)\clip(58.08,0,383.04,19.2)}本字幕由{\c&H00FFFF&}大家字幕组{\c&HFFFFFF&}原创翻译制作，仅供学习，禁止用于任何商业盈利行为。若因私自散布传播造成法律问题，本字幕组概不负责。更多影视请搜索并关注新浪微博{\c&H00FFFF&}@大家字幕组{\c&HFFFFFF&}。
+Dialogue: 0,0:00:10.20,0:00:15.20,大家字幕组LOGO,,0,0,0,,{\fn微软雅黑\fs15)\fad(400,400)\pos(31.145,81.2)}{\1c&HFFFFFF&\shad0.1}关注新浪微博\N{\b1\c&HD7611B&\3c&H000000&\3a&HFF&\4c&H000000&\4a&HFC&}@大家字幕组
+Dialogue: 0,0:00:15.00,0:00:25.25,大家字幕组LOGO,,0,0,0,,{\fn微软雅黑\fs15)\fad(400,1700)\pos(31.145,81.2)}{\clip(5.24,54.4,60.24,87.04)}{\1c&HFFFFFF&\shad0.1}微 信 关 注\N{\b1\c&HD7611B&\3c&HFFFFFF&\4c&HFFFFFF&\4a&HDD&}dajiazimuzu
+Dialogue: 0,0:00:08.72,0:00:25.10,大家字幕组,,0,0,0,,{\fscx60\fscy70\\pos(30.6,32.96)}{\fad(0,2000)\an7\fscy0\t(0,300,\fscy100)\pos(56.4,257.6)}{\p1\bord0\shad0\pos(192,148)}m 16 2 l 3 8 l 12 8 l 12 6 l 16 6 m 33 -5 l 37 8 l 42 8 m 29 -12 l 21 -12 l 24 -10 l 24 6 l 23 8 l 30 8 l 25 -5 l 27 -10 l 31 -10 m -15 -5 l -23 8 l -7 8 m -9 -12 l 12 -12 l 2 -8 l 2 -4 l 13 -9 l 15 -7 l 2 -1 l 2 2 l 16 -4 l 16 -2 l 2 4 l 1 6 m -11 -24 l 15 -24 l 15 -22 l 1 -22 l 1 -16 l 11 -16 l 11 -19 l 25 -19 l 28 -15 l -11 -15 m -20 -22 l -24 -15 l -20 -15 m -26 -12 l -21 -12 l -32 6 l -33 6 l -33 8 l -39 8
+Dialogue: 0,0:00:08.72,0:00:25.10,大家字幕组,,0,0,0,,{\fad(0,2000)\an5\fscy0\t(0,300,\fscy100)\pos(33.4,46.16)}{\fs9}EVERYONE
+Dialogue: 0,0:00:09.00,0:00:25.10,大家字幕组,,0,0,0,,{\p1\c&H1DF7FA&\frz13.63\fscx128\fscy133\pos(19.2,43.12)\3c&H000000&\4c&H000000&\fad(0,2000)}m 2 0 l 15 0 l 15 -11 l 12 -5 l 9 -16 l 6 -5 l 3 -10 l 2 0
+Dialogue: 0,0:10:31.00,0:10:40.00,大家字幕组,,0,0,0,,{\fscx60\fscy70\\pos(40.2,257.6)}{\fad(0,2000)\an7\fscy0\t(0,300,\fscy100)\pos(56.4,257.6)}{\p1\bord0\shad0\pos(192,148)}m 16 2 l 3 8 l 12 8 l 12 6 l 16 6 m 33 -5 l 37 8 l 42 8 m 29 -12 l 21 -12 l 24 -10 l 24 6 l 23 8 l 30 8 l 25 -5 l 27 -10 l 31 -10 m -15 -5 l -23 8 l -7 8 m -9 -12 l 12 -12 l 2 -8 l 2 -4 l 13 -9 l 15 -7 l 2 -1 l 2 2 l 16 -4 l 16 -2 l 2 4 l 1 6 m -11 -24 l 15 -24 l 15 -22 l 1 -22 l 1 -16 l 11 -16 l 11 -19 l 25 -19 l 28 -15 l -11 -15 m -20 -22 l -24 -15 l -20 -15 m -26 -12 l -21 -12 l -32 6 l -33 6 l -33 8 l -39 8
+Dialogue: 0,0:10:31.00,0:10:40.00,大家字幕组,,0,0,0,,{\fad(0,2000)\an5\fscy0\t(0,300,\fscy100)\pos(43,270.8)}{\fs9}EVERYONE
+Dialogue: 0,0:10:31.00,0:10:32.00,大家字幕组,,0,0,0,,{\an5\fs16\pos(42.6,225.6)\clip(6.6,216,11.4,232.8)}{\fsp5}{\clip(6.6,216,11.4,232.8)\t(\clip(5.4,206.4,114,232.8))\c&H1DF7FA&}大家字幕组
+Dialogue: 0,0:10:32.00,0:10:39.00,大家字幕组,,0,0,0,,{\an5\fs16\t(2000,4000,\frx720)\pos(42.6,225.6)}{\fsp5\c&H1DF7FA&}大家字幕组
+Dialogue: 0,0:10:39.00,0:10:40.00,大家字幕组,,0,0,0,,{\an5\fs16\pos(42.6,225.6)}{\fsp5}{\clip(5.4,206.4,112.2,234.4)\t(\clip(104.4,210.4,112.2,234.4))\c&H1DF7FA&}大家字幕组
+Dialogue: 0,0:20:54.98,0:21:03.99,大家字幕组,,0,0,0,,{\fscx60\fscy70\\pos(40.2,257.6)}{\fad(0,2000)\an7\fscy0\t(0,300,\fscy100)\pos(56.4,257.6)}{\p1\bord0\shad0\pos(192,148)}m 16 2 l 3 8 l 12 8 l 12 6 l 16 6 m 33 -5 l 37 8 l 42 8 m 29 -12 l 21 -12 l 24 -10 l 24 6 l 23 8 l 30 8 l 25 -5 l 27 -10 l 31 -10 m -15 -5 l -23 8 l -7 8 m -9 -12 l 12 -12 l 2 -8 l 2 -4 l 13 -9 l 15 -7 l 2 -1 l 2 2 l 16 -4 l 16 -2 l 2 4 l 1 6 m -11 -24 l 15 -24 l 15 -22 l 1 -22 l 1 -16 l 11 -16 l 11 -19 l 25 -19 l 28 -15 l -11 -15 m -20 -22 l -24 -15 l -20 -15 m -26 -12 l -21 -12 l -32 6 l -33 6 l -33 8 l -39 8
+Dialogue: 0,0:20:54.98,0:21:03.99,大家字幕组,,0,0,0,,{\fad(0,2000)\an5\fscy0\t(0,300,\fscy100)\pos(43,270.8)}{\fs9}EVERYONE
+Dialogue: 0,0:20:54.98,0:20:55.98,大家字幕组,,0,0,0,,{\an5\fs16\pos(42.6,225.6)\clip(6.6,216,11.4,232.8)}{\fsp5}{\clip(6.6,216,11.4,232.8)\t(\clip(5.4,206.4,114,232.8))\c&H1DF7FA&}大家字幕组
+Dialogue: 0,0:20:55.98,0:21:02.99,大家字幕组,,0,0,0,,{\an5\fs16\t(2000,4000,\frx720)\pos(42.6,225.6)}{\fsp5\c&H1DF7FA&}大家字幕组
+Dialogue: 0,0:21:02.99,0:21:03.99,大家字幕组,,0,0,0,,{\an5\fs16\pos(42.6,225.6)}{\fsp5}{\clip(5.4,206.4,112.2,234.4)\t(\clip(104.4,210.4,112.2,234.4))\c&H1DF7FA&}大家字幕组
+Dialogue: 0,0:20:54.98,0:21:06.45,Default,,0,0,0,,{\fad(300,500)\fn微软雅黑\fs16\b1\3c&H000000&\3a&HFF&\pos(78,103.6)}本字幕由{\c&H3934FF&\1a&H00&}大家字幕组{\c&HFFFFFF&}原创翻译         \h\N{\fs14}仅供学习使用 禁止用于任何商业盈利行为\N彼以国士待我 我以国士待之                   \h\N用过免费优质字幕服务 而又有能力的人  \h\N有义务将这个免费服务做下去                 \h\N若有心加入我们                                     \h\N{\c&H3934FF&\1a&H00&}请联系QQ群：428872140                   \h
+Dialogue: 0,0:03:36.44,0:03:41.20,Default,,0,0,0,,{\c&H&HA64D0A&\bord0.7\3c&HFFFFFF\shad0\fn方正兰亭特黑简体\fs45\t(0,3650,\fs50)\org(193.8,100.4)\frz1.328\frx354\fry0\pos(150.2,84.4)\b1}超级商店
+Dialogue: 0,0:03:38.74,0:03:41.20,Default,,0,0,0,,{\fn方正兰亭特黑简体\bord0\shad0.1\b0\pos(196.08,244.32)}第一季 第十一集\N大家字幕组 欢乐出品
+Dialogue: 0,0:03:42.74,0:03:46.45,Default,,0,0,0,,{\fn华文细黑\fa17\bord0.1\shad0.7\b1\fad(300,300)\pos(308.4,23.6)}{\c&H91F9FA&}翻译  {\fs17\c&HFFFFFF&}Harrio Oliver
+Dialogue: 0,0:03:46.78,0:03:50.41,Default,,0,0,0,,{\fn华文细黑\fa17\bord0.1\shad0.7\b1\fad(300,300)\pos(323.4,23.6)}{\c&H91F9FA&}翻译  {\fs17\c&HFFFFFF&}Davion 巴西
+Dialogue: 0,0:03:50.79,0:03:54.38,Default,,0,0,0,,{\fn华文细黑\fa17\bord0.1\shad0.7\b1\fad(300,300)\pos(326.4,23.6)}{\c&H91F9FA&}校对  {\fs17\c&HFFFFFF&}苹果酒  糖糖 苏沐秋
+Dialogue: 0,0:03:54.75,0:03:58.55,Default,,0,0,0,,{\fn华文细黑\fa17\bord0.1\shad0.7\b1\fad(300,300)\pos(312,23.6)}{\c&H91F9FA&}时间轴  {\fs17\c&HFFFFFF&}喻心黄速西子耶 马路边
+Dialogue: 0,0:03:58.80,0:04:02.51,Default,,0,0,0,,{\fn华文细黑\fa17\bord0.1\shad0.7\b1\fad(300,300)\pos(304.2,23.6)}{\c&H91F9FA&}特效  {\fs17\c&HFFFFFF&}福娃  喻心黄速西子耶
+Dialogue: 0,0:04:02.76,0:04:06.68,Default,,0,0,0,,{\fn华文细黑\fa17\bord0.1\shad0.7\b1\fad(300,300)\pos(348.6,23.6)}{\c&H91F9FA&}压制  {\fs17\c&HFFFFFF&}冰岛
+Dialogue: 0,0:00:10.19,0:00:12.32,二维码,黑,0,0,0,,{\p1\fad(150,0)\fscx113\fscy145\c&H000000&\move(39.471,236.557,32.2,245.8,0,2000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:12.32,0:00:13.32,二维码,黑,0,0,0,,{\p1\fscx113\fscy145\c&H000000&\move(32.2,245.8,29.829,248.942,0,1000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:13.32,0:00:14.32,二维码,黑,0,0,0,,{\p1\fscx113\fscy145\c&H000000&\move(29.829,248.942,32.2,245.8,0,1000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:15.32,0:00:23.79,二维码,黑,0,0,0,,{\p1\fad(0,500)\fscx113\fscy145\c&H000000&\move(29.829,248.942,31.029,247.3,0,2000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:14.32,0:00:15.32,二维码,黑,0,0,0,,{\p1\fscx113\fscy145\c&H000000&\move(32.2,245.8,29.829,248.942,0,1000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:10.19,0:00:12.32,二维码,白,0,0,0,,{\p1\fad(150,0)\\fscx113\fscy145\move(22.1,258.914,29.829,249,0,2000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:12.32,0:00:13.32,二维码,白,0,0,0,,{\p1\fscx113\fscy145\move(29.829,249,32.25,245.46,0,1000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:13.32,0:00:14.32,二维码,白,0,0,0,,{\p1\fad(0,0)\\fscx113\fscy145\move(32.25,245.46,29.829,249,0,1000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:15.32,0:00:23.79,二维码,白,0,0,0,,{\p1\fad(0,500)\\fscx113\fscy145\move(32.25,245.46,31.029,247.3,0,2000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:14.32,0:00:15.32,二维码,白,0,0,0,,{\p1\fad(0,0)\\fscx113\fscy145\move(29.829,249,32.25,245.46,0,1000)}m 0 20 l 39 20 l 39 59 l 0 59
+Dialogue: 0,0:00:10.32,0:00:23.71,二维码,,0,0,0,,{\p1\fad(1000,100)\\fscx113\fscy145\c&H000000&\\move(40.5,237.943,30.99,248.8,0,2000)}m 32 26 l 32 26 l 32 28 l 31 28 l 31 27 l 30 27 l 30 28 l 29 28 l 29 29 l 28 29 l 28 30 l 27 30 l 27 31 l 26 31 l 26 32 l 28 32 l 28 31 l 30 31 l 30 32 l 28 32 l 28 33 l 27 33 l 27 35 l 26 35 l 26 36 l 25 36 l 25 35 l 24 35 l 24 32 l 22 32 l 22 31 l 23 31 l 23 30 l 22 30 l 22 29 l 24 29 l 24 30 l 26 30 l 26 29 l 24 29 l 24 27 l 23 27 l 23 28 l 22 28 l 22 29 l 21 29 l 21 30 l 19 30 l 19 31 l 20 31 l 20 32 l 19 32 l 19 31 l 18 31 l 18 32 l 17 32 l 17 31 l 18 31 l 18 30 l 17 30 l 17 29 l 19 29 l 19 28 l 19 28 l 20 28 l 20 29 l 21 29 l 21 28 l 20 28 l 20 27 l 22 27 l 22 26 l 27 26 l 27 27 l 25 27 l 25 28 l 28 28 l 28 24 l 27 24 l 27 25 l 26 25 l 26 24 l 27 24 l 27 23 l 28 23 l 28 22 l 27 22 l 27 21 l 29 21 l 29 26 l 32 26 m 16 28 l 17 28 l 17 27 l 16 27 l 16 28 m 17 25 l 16 25 l 16 24 l 17 24 l 17 25 m 18 28 l 18 26 l 19 26 l 19 25 l 20 25 l 20 24 l 19 24 l 19 25 l 18 25 l 18 24 l 19 24 l 19 23 l 20 23 l 20 21 l 21 21 l 21 20 l 22 20 l 22 23 l 20 23 l 20 24 l 21 24 l 21 26 l 20 26 l 20 27 l 19 27 l 19 28 l 18 28 m 23 25 l 22 25 l 22 24 l 23 24 l 23 25 m 24 25 l 24 23 l 23 23 l 23 20 l 24 20 l 24 21 l 26 21 l 26 23 l 25 23 l 25 25 m 0 27 l 0 29 l 1 29 l 1 28 l 2 28 l 2 29 l 3 29 l 3 32 l 2 32 l 2 33 l 1 33 l 1 32 l 0 32 l 0 33 l 1 33 l 1 34 l 2 34 l 2 36 l 1 36 l 1 35 l 0 35 l 0 37 l 2 37 l 2 38 l 5 38 l 5 39 l 7 39 l 7 38 l 6 38 l 6 37 l 8 37 l 8 36 l 9 36 l 9 35 l 10 35 l 10 36 l 11 36 l 11 35 l 10 35 l 10 33 l 9 33 l 9 35 l 8 35 l 8 33 l 9 33 l 9 32 l 6 32 l 6 31 l 5 31 l 5 30 l 6 30 l 6 31 l 8 31 l 8 30 l 6 30 l 6 29 l 8 29 l 8 27 l 7 27 l 7 28 l 6 28 l 6 29 l 4 29 l 4 27 l 5 27 l 5 28 l 6 28 l 6 27 l 7 27 l 7 26 l 6 26 l 6 27 l 5 27 l 5 26 l 2 26 l 2 27 l 3 27 l 3 28 l 2 28 l 2 27 l 1 27 m 0 30 l 2 30 l 2 31 l 0 31 m 9 30 l 10 30 l 10 31 l 9 31 l 9 30 m 21 31 l 22 31 l 22 30 l 21 30 l 21 31 m 37 26 l 34 26 l 34 27 l 33 27 l 33 28 l 32 28 l 32 29 l 31 29 l 31 28 l 30 28 l 30 31 l 31 31 l 31 32 l 30 32 l 30 33 l 29 33 l 29 35 l 28 35 l 28 36 l 26 36 l 26 39 l 25 39 l 25 40 l 24 40 l 24 38 l 23 38 l 23 40 l 24 40 l 24 42 l 22 42 l 22 41 l 19 41 l 19 42 l 20 42 l 20 43 l 21 43 l 21 44 l 19 44 l 19 45 l 22 45 l 22 43 l 25 43 l 25 40 l 26 40 l 26 43 l 27 43 l 27 41 l 28 41 l 28 43 l 30 43 l 30 44 l 32 44 l 32 45 l 33 45 l 33 44 l 34 44 l 34 43 l 35 43 l 35 42 l 33 42 l 33 44 l 32 44 l 32 43 l 32 41 l 31 41 l 31 42 l 30 42 l 30 41 l 29 41 l 29 40 l 26 40 l 26 39 l 27 39 l 27 37 l 28 37 l 28 38 l 29 38 l 29 40 l 30 40 l 30 41 l 31 41 l 31 40 l 32 40 l 32 39 l 34 39 l 34 40 l 34 41 l 36 41 l 36 43 l 37 43 l 37 42 l 37 39 l 36 39 l 36 40 l 35 40 l 35 38 l 36 38 l 36 37 l 37 37 l 37 36 l 35 36 l 35 34 l 34 34 l 34 35 l 33 35 l 33 36 l 35 36 l 35 38 l 33 38 l 33 36 l 32 36 l 32 37 l 30 37 l 30 38 l 29 38 l 29 37 l 28 37 l 28 36 l 30 36 l 30 35 l 31 35 l 31 36 l 32 36 l 32 35 l 33 35 l 33 33 l 34 33 l 34 32 l 35 32 l 35 33 l 36 33 l 36 34 l 37 34 l 37 32 l 35 32 l 35 30 l 32 30 l 32 29 l 33 29 l 33 28 l 35 28 l 35 27 l 37 27 l 37 26 m 33 31 l 33 32 l 32 32 l 32 31 m 31 33 l 32 33 l 32 34 l 31 34 m 25 34 l 26 34 l 26 33 l 25 33 m 36 28 l 36 28 l 37 28 l 37 29 l 36 29 m 36 30 l 37 30 l 37 31 l 36 31 m 14 35 l 14 33 l 13 33 l 13 34 l 12 34 l 12 37 l 13 37 l 13 35 m 4 37 l 4 36 l 3 36 l 3 37 l 2 37 l 2 36 l 3 36 l 3 32 l 5 32 l 5 33 l 4 33 l 4 34 l 6 34 l 6 33 l 7 33 l 7 34 l 6 34 l 6 35 l 7 35 l 7 36 l 6 36 l 6 37 l 4 37 m 4 35 l 5 35 l 5 36 l 4 36 m 37 45 l 37 44 l 36 44 l 36 43 l 35 43 l 35 44 l 34 44 l 34 45 l 35 45 l 35 46 l 34 46 l 34 47 l 35 47 l 35 50 l 34 50 l 34 52 l 33 52 l 33 54 l 31 54 l 31 53 l 32 53 l 32 52 l 33 52 l 33 49 l 34 49 l 34 48 l 33 48 l 33 46 l 29 46 l 29 45 l 28 45 l 28 46 l 27 46 l 27 45 l 28 45 l 28 44 l 26 44 l 26 46 l 25 46 l 25 47 l 24 47 l 24 45 l 25 45 l 25 44 l 23 44 l 23 46 l 21 46 l 21 47 l 20 47 l 20 46 l 19 46 l 19 49 l 21 49 l 21 52 l 19 52 l 19 53 l 21 53 l 21 55 l 23 55 l 23 54 l 22 54 l 22 53 l 23 53 l 23 52 l 22 52 l 22 51 l 24 51 l 24 52 l 25 52 l 25 51 l 26 51 l 26 50 l 25 50 l 25 49 l 24 49 l 24 50 l 22 50 l 22 49 l 23 49 l 23 48 l 26 48 l 26 47 l 28 47 l 28 48 l 28 48 l 26 48 l 26 50 l 27 50 l 27 49 l 28 49 l 28 50 l 27 50 l 27 51 l 28 51 l 28 53 l 27 53 l 27 52 l 26 52 l 26 55 l 28 55 l 28 54 l 29 54 l 29 51 l 30 51 l 30 52 l 31 52 l 31 51 l 32 51 l 32 52 l 31 52 l 31 53 l 30 53 l 30 54 l 29 54 l 29 55 l 37 55 l 37 52 l 36 52 l 36 54 l 34 54 l 34 53 l 35 53 l 35 50 l 37 50 l 37 48 l 36 48 l 36 45 m 29 47 l 32 47 l 32 50 l 29 50 m 30 48 l 31 48 l 31 49 l 30 49 m 13 49 l 15 49 l 15 46 l 16 46 l 16 45 l 17 45 l 17 44 l 18 44 l 18 42 l 17 42 l 17 41 l 14 41 l 14 42 l 16 42 l 16 45 l 15 45 l 15 43 l 14 43 l 14 42 l 13 42 l 13 44 l 11 44 l 11 43 l 12 43 l 12 42 l 9 42 l 9 44 l 8 44 l 8 42 l 6 42 l 6 41 l 10 41 l 10 39 l 11 39 l 11 41 l 13 41 l 13 40 l 14 40 l 14 39 l 13 39 l 13 40 l 12 40 l 12 39 l 11 39 l 11 37 l 9 37 l 9 38 l 8 38 l 8 40 l 5 40 l 5 41 l 3 41 l 3 40 l 0 40 l 0 42 l 1 42 l 1 41 l 2 41 l 2 43 l 0 43 l 0 47 l 1 47 l 1 44 l 2 44 l 2 46 l 3 46 l 3 44 l 2 44 l 2 43 l 3 43 l 3 42 l 4 42 l 4 47 l 5 47 l 5 46 l 6 46 l 6 45 l 7 45 l 7 44 l 6 44 l 6 43 l 5 43 l 5 42 l 6 42 l 6 43 l 7 43 l 7 44 l 8 44 l 8 46 l 6 46 l 6 47 l 8 47 l 8 48 l 9 48 l 9 45 l 10 45 l 10 44 l 11 44 l 11 45 l 10 45 l 10 46 l 11 46 l 11 47 l 10 47 l 10 48 l 11 48 l 11 47 l 14 47 l 14 48 l 13 48 m 13 46 l 12 46 l 12 45 l 13 45 m 15 55 l 11 55 l 11 54 l 9 54 l 9 53 l 8 53 l 8 50 l 9 50 l 9 52 l 10 52 l 10 49 l 11 49 l 11 53 l 12 53 l 12 51 l 13 51 l 13 50 l 14 50 l 14 51 l 13 51 l 13 53 l 12 53 l 12 54 l 15 54 l 15 54 m 15 53 l 15 52 l 17 52 l 17 53 l 18 53 l 18 55 l 16 55 l 16 53 m 17 47 l 18 47 l 18 49 l 16 49 l 16 48 l 17 48 m 17 50 l 18 50 l 18 51 l 17 51 m 19 50 l 20 50 l 20 51 l 19 51 m 19 54 l 20 54 l 20 55 l 19 55 m 0 38 l 1 38 l 1 39 l 0 39 m 0 48 l 7 48 l 7 55 l 0 55 l 0 55 m 1 49 l 1 54 l 1 54 l 6 54 l 6 49 m 2 50 l 5 50 l 5 53 l 2 53 m 30 18 l 30 25 l 37 25 l 37 18 m 31 19 l 36 19 l 36 24 l 31 24 m 32 20 l 32 23 l 35 23 l 35 20 m 0 18 l 7 18 l 7 25 l 0 25 m 1 19 l 1 24 l 6 24 l 6 19 m 2 20 l 2 23 l 5 23 l 5 20 m 8 18 l 8 21 l 11 21 l 11 22 l 10 22 l 10 23 l 8 23 l 8 27 l 10 27 l 10 28 l 12 28 l 12 32 l 10 32 l 10 33 l 11 33 l 11 34 l 12 34 l 12 33 l 13 33 l 13 32 l 15 32 l 15 31 l 16 31 l 16 29 l 15 29 l 15 30 l 14 30 l 14 29 l 15 29 l 15 28 l 14 28 l 14 27 l 13 27 l 13 23 l 15 23 l 15 24 l 14 24 l 14 26 l 15 26 l 15 27 l 16 27 l 16 25 l 15 25 l 15 24 l 16 24 l 16 23 l 17 23 l 17 24 l 18 24 l 18 22 l 19 22 l 19 20 l 21 20 l 21 19 l 23 19 l 23 18 l 21 18 l 21 19 l 19 19 l 19 18 l 18 18 l 18 20 l 17 20 l 17 22 l 15 22 l 15 21 l 16 21 l 16 20 l 17 20 l 17 19 l 16 19 l 16 20 l 15 20 l 15 19 l 16 19 l 16 18 l 14 18 l 14 20 l 15 20 l 15 21 l 14 21 l 14 20 l 13 20 l 13 21 l 12 21 l 12 19 l 13 19 l 13 18 l 11 18 l 11 19 l 9 19 l 9 18 m 9 26 l 9 24 l 10 24 l 10 23 l 11 23 l 11 22 l 12 22 l 12 27 l 11 27 l 11 26 m 10 25 l 10 24 l 11 24 l 11 25 m 25 18 l 25 19 l 26 19 l 26 18 m 28 18 l 29 18 l 29 20 l 27 20 l 27 19 l 28 19
+Dialogue: 0,0:00:10.32,0:00:23.71,二维码,,0,0,0,,{\p1\fad(1000,100)\c&H000000&\4c&H000000&\4a&HFF&\3c&H000000&\3a&HFF&\fscx16\fscy26\\move(41,237.9,31.372,248.87,0,2000)}m 56 35 l 43 41 l 52 41 l 52 39 l 56 39 m 73 28 l 77 41 l 82 41 m 69 21 l 61 21 l 64 23 l 64 39 l 63 41 l 70 41 l 65 28 l 67 23 l 71 23 m 25 28 l 17 41 l 33 41 m 31 21 l 52 21 l 42 25 l 42 29 l 53 24 l 55 26 l 42 32 l 42 35 l 56 29 l 56 31 l 42 37 l 41 39 m 29 9 l 55 9 l 55 11 l 41 11 l 41 17 l 51 17 l 51 14 l 65 14 l 68 18 l 29 18 m 20 11 l 16 18 l 20 18 m 14 21 l 19 21 l 8 39 l 7 39 l 7 41 l 1 41
+Dialogue: 0,0:00:11.19,0:00:14.20,二维码,,0,0,0,,{\fs9\fn微软雅黑\fad(0,300)\\fscy0\t(0,1000,\fscy100)\\pos(30.343,286.457)}扫扫加微信
+Dialogue: 0,0:00:14.20,0:00:17.20,二维码,,0,0,0,,{\fs9\fn微软雅黑\fad(0,300)\\fscy0\t(0,300,\fscy100)\\pos(30.343,286.457)}大家字幕组
+Dialogue: 0,0:00:17.20,0:00:20.20,二维码,,0,0,0,,{\fs9\fn微软雅黑\fad(0,300)\\fscy0\t(0,500,\fscy100)\\pos(30.343,286.457)}dajiazimuzu
+Dialogue: 0,0:00:20.20,0:00:23.21,二维码,,0,0,0,,{\fs9\fad(0,100)\\fn微软雅黑\fad(0,0)\\fscy0\t(0,500,\fscy100)\\pos(30.343,286.457)}扫扫加微信
+Dialogue: 0,0:00:23.41,0:00:23.41,二维码,,0,0,0,,{\fs9\fn微软雅黑\fad(0,100)\\fscy0\t(0,300,\fscy100)\\pos(30.343,286.457)}大家字幕组
+Dialogue: 0,0:00:23.08,0:00:23.58,二维码,,0,0,0,,{\fs9\fn微软雅黑\fad(0,100)\\fscy0\t(0,500,\fscy100)\\pos(30.343,286.457)}dajiazimuzu
+Dialogue: 0,0:00:23.29,0:00:23.79,二维码,,0,0,0,,{\fs9\fad(0,100)\\fn微软雅黑\fad(0,0)\\fscy0\t(0,500,\fscy100)\\pos(30.343,286.457)}扫扫加微信
+Dialogue: 0,0:00:04.19,0:00:06.41,Default,,0,0,0,,你觉得我很弱吗?{\fs14}\NAm i looking weak to you?
+Dialogue: 0,0:00:06.45,0:00:07.46,Default,,0,0,0,,"嘿 加勒特{\fs14}\N"hey, Garrett,
+Dialogue: 0,0:00:07.50,0:00:08.68,Default,,0,0,0,,你今天过的怎么样?"{\fs14}\Nhow was your day?"
+Dialogue: 0,0:00:08.73,0:00:10.92,Default,,0,0,0,,这是正常人会说来打开话匣子的方式{\fs14}\NThat's how normal people start a conversation.
+Dialogue: 0,0:00:10.95,0:00:13.59,Default,,0,0,0,,当我是管理人员的时候 我有权力{\fs14}\Nwhen i was management, i had power.
+Dialogue: 0,0:00:13.62,0:00:15.69,Default,,0,0,0,,我当初为什么放弃呢?{\fs14}\NWhy did i give that up?
+Dialogue: 0,0:00:15.69,0:00:17.22,Default,,0,0,0,,我们当初裁员数量第一{\fs14}\NWe were number one in shrink reduction
+Dialogue: 0,0:00:17.26,0:00:19.09,Default,,0,0,0,,职工满意度垫底{\fs14}\NAnd last in employee satisfaction.
+Dialogue: 0,0:00:19.09,0:00:20.39,Default,,0,0,0,,这是我干的{\fs14}\NI did that.
+Dialogue: 0,0:00:21.53,0:00:24.51,Default,,0,0,0,,现在这个世界看起来真愚蠢{\fs14}\NNow the world just seems dull or something.
+Dialogue: 0,0:00:24.57,0:00:26.37,Default,,0,0,0,,伙伴们{\fs14}\NGuys?
+Dialogue: 0,0:00:26.40,0:00:28.53,Default,,0,0,0,,好吧 要去医院了吗?{\fs14}\NOkay. time to go to the hospital?
+Dialogue: 0,0:00:28.59,0:00:30.64,Default,,0,0,0,,我不觉得我能撑到医院{\fs14}\NI don't think i'm gonna make it to the hospital.
+Dialogue: 0,0:00:30.67,0:00:32.44,Default,,0,0,0,,我只能在这生了{\fs14}\NI think i'm having this baby here.
+Dialogue: 0,0:00:32.47,0:00:33.97,Default,,0,0,0,,好吧好吧 那我们现在需要毛巾{\fs14}\NOkay. We need towels.
+Dialogue: 0,0:00:33.98,0:00:36.61,Default,,0,0,0,,谁去商店买点毛巾来啊!{\fs14}\NSomeone run to the store and buy some towels!
+Dialogue: 0,0:00:36.66,0:00:37.78,Default,,0,0,0,,不不不 等等! 我们就是个商店啊!{\fs14}\NNo, wait! We're a store!
+Dialogue: 0,0:00:37.78,0:00:39.11,Default,,0,0,0,,- 搞点毛巾来! - 这就去{\fs14}\N- Get some towels! - On it.
+Dialogue: 0,0:00:39.15,0:00:40.41,Default,,0,0,0,,你不能在店里面生孩子{\fs14}\NYou're not gonna have the baby in the store.
+Dialogue: 0,0:00:40.42,0:00:42.00,Default,,0,0,0,,时间还多的呢 小夏{\fs14}\NYou have plenty of time, Chey.
+Dialogue: 0,0:00:42.03,0:00:43.38,Default,,0,0,0,,而且这也许只是假临产现象{\fs14}\NAnd it could be false labor.
+Dialogue: 0,0:00:43.38,0:00:45.67,Default,,0,0,0,,你懂么? 这就是所谓的一个布拉克斯顿希克斯收缩{\fs14}\NYou know? that's called a braxton hicks contraction.
+Dialogue: 0,0:00:45.70,0:00:47.65,Default,,0,0,0,,这孩子不能生在云九商店{\fs14}\Nthis baby is not gonna be born in cloud 9.
+Dialogue: 0,0:00:47.69,0:00:48.85,Default,,0,0,0,,也许这是布拉克斯顿希克斯收缩{\fs14}\NMaybe it's braxton hicks.
+Dialogue: 0,0:00:48.91,0:00:50.96,Default,,0,0,0,,好啦 我们知道啦 你知道这个术语布拉克斯顿希克斯收缩{\fs14}\NOkay, we get it. You know the term braxton hicks.
+Dialogue: 0,0:00:50.99,0:00:51.99,Default,,0,0,0,,你好棒哟！{\fs14}\NWe're all very impressed.
+Dialogue: 0,0:00:52.04,0:00:54.29,Default,,0,0,0,,不 我只能在这生了{\fs14}\NNo, i'm having this baby here.
+Dialogue: 0,0:00:55.46,0:00:56.76,Default,,0,0,0,,好的 就这样了!{\fs14}\NOkay, this is it!
+Dialogue: 0,0:00:56.76,0:00:58.43,Default,,0,0,0,,就这么办了!{\fs14}\NThis is happening!
+Dialogue: 0,0:00:58.43,0:00:59.98,Default,,0,0,0,,我没任何感觉{\fs14}\NI feel nothing.
+Dialogue: 0,0:01:00.03,0:01:01.40,Default,,0,0,0,,注意 顾客们{\fs14}\NAttention, shoppers.
+Dialogue: 0,0:01:01.40,0:01:03.89,Default,,0,0,0,,你们中有医生...?{\fs14}\NIs there a doctor in the...
+Dialogue: 0,0:01:03.92,0:01:05.37,Default,,0,0,0,,开什么玩笑? 这可是云九商店{\fs14}\NWho am i kidding? This is cloud 9.
+Dialogue: 0,0:01:05.41,0:01:07.54,Default,,0,0,0,,你们谁是《实习医生格蕾》的忠实粉丝啊?{\fs14}\NAnybody here watched a lot of "grey's anatomy?"
+Dialogue: 0,0:01:07.58,0:01:08.71,Default,,0,0,0,,或者《护士当家》也可以啊?{\fs14}\NMaybe "nurse jackie"?
+Dialogue: 0,0:01:08.71,0:01:10.31,Default,,0,0,0,,《到拐点》就算了{\fs14}\NNot "the knick."
+Dialogue: 0,0:01:10.35,0:01:11.64,Default,,0,0,0,,毛巾 毛巾 毛巾{\fs14}\NTowels. towels. towels.
+Dialogue: 0,0:01:17.90,0:01:19.32,Default,,0,0,0,,让道!药剂师来了!{\fs14}\NMove! Pharmacist coming through.
+Dialogue: 0,0:01:19.35,0:01:21.52,Default,,0,0,0,,让一下 我需要空间{\fs14}\NStep aside. I need room.
+Dialogue: 0,0:01:21.57,0:01:22.97,Default,,0,0,0,,好了 夏安{\fs14}\NAll right, Cheyenne.
+Dialogue: 0,0:01:23.01,0:01:24.00,Default,,0,0,0,,我需要你认真听我说话{\fs14}\NI need you to listen to me here,
+Dialogue: 0,0:01:24.00,0:01:24.91,Default,,0,0,0,,咱们一起面对{\fs14}\Nand we will get through this.
+Dialogue: 0,0:01:24.96,0:01:26.33,Default,,0,0,0,,好 24小时之内{\fs14}\NNow, in the last 24 hours,
+Dialogue: 0,0:01:26.38,0:01:27.96,Default,,0,0,0,,你有没有服用任何需要让我知道的药物?{\fs14}\NHave you taken any medication i need to know about.
+Dialogue: 0,0:01:28.01,0:01:29.41,Default,,0,0,0,,只有一些胃药{\fs14}\NJust some tums.
+Dialogue: 0,0:01:29.45,0:01:30.86,Default,,0,0,0,,碳酸钙 没关系{\fs14}\NCalcium carbonate. That's fine.
+Dialogue: 0,0:01:30.87,0:01:32.33,Default,,0,0,0,,这个不会伤害宝宝{\fs14}\NIt's not gonna harm the baby.
+Dialogue: 0,0:01:32.33,0:01:33.67,Default,,0,0,0,,好了{\fs14}\NAll right.
+Dialogue: 0,0:01:33.72,0:01:35.10,Default,,0,0,0,,好吧 是 就这样了?{\fs14}\NOkay, yeah. That's it?
+Dialogue: 0,0:01:35.14,0:01:36.27,Default,,0,0,0,,嗯 对啊{\fs14}\NWell, yeah.
+Dialogue: 0,0:01:36.32,0:01:37.65,Default,,0,0,0,,我是个药剂师{\fs14}\NI'm a pharmacist.
+Dialogue: 0,0:01:37.71,0:01:39.26,Default,,0,0,0,,我又不知道怎么接生{\fs14}\NI don't know how to deliver a baby.
+Dialogue: 0,0:01:39.29,0:01:40.22,Default,,0,0,0,,多恶心{\fs14}\NGross.
+Dialogue: 0,0:01:40.26,0:01:42.07,Default,,0,0,0,,但是 嗯 祝好运{\fs14}\NBut, um, good luck.
+Dialogue: 0,0:01:43.24,0:01:44.28,Default,,0,0,0,,突如其来的考验{\fs14}\NMy training kicked in.
+Dialogue: 0,0:01:44.28,0:01:46.01,Default,,0,0,0,,你们不用感谢我{\fs14}\NYou're welcome, everyone.
+Dialogue: 0,0:01:47.52,0:01:48.85,Default,,0,0,0,,好的 这很好{\fs14}\NOkay, that's good.
+Dialogue: 0,0:01:48.85,0:01:51.30,Default,,0,0,0,,如果宫缩时间再长点 那就代表你...{\fs14}\NIf the contractions are longer, that means you're in...
+Dialogue: 0,0:01:51.34,0:01:54.75,Default,,0,0,0,,真的要生了 所以我猜你现在是真的要生了{\fs14}\NIt's called active labor, so i guess you're in active labor.
+Dialogue: 0,0:01:56.39,0:01:58.69,Default,,0,0,0,,我还是去准备东西吧{\fs14}\NI'm gonna go get some stuff.
+Dialogue: 0,0:01:58.69,0:02:00.96,Default,,0,0,0,,好的 我曾经给牛接生过{\fs14}\NOkay, look. I took part in a cow birth once.
+Dialogue: 0,0:02:01.00,0:02:03.40,Default,,0,0,0,,小牛死掉了 但是我学到了一些不该做的事情{\fs14}\NThe calf died, but i learned what not to do.
+Dialogue: 0,0:02:03.43,0:02:04.43,Default,,0,0,0,,不 不 不 不{\fs14}\NNo, no, no, no.
+Dialogue: 0,0:02:05.60,0:02:08.33,Default,,0,0,0,,啊 不 是这个{\fs14}\NAh, no. yes.
+Dialogue: 0,0:02:09.84,0:02:11.34,Default,,0,0,0,,我们要用到棉球吗?{\fs14}\NWill we need cotton balls?
+Dialogue: 0,0:02:12.61,0:02:14.31,Default,,0,0,0,,我还是拿点棉球吧{\fs14}\NI'll get cotton balls.
+Dialogue: 0,0:02:14.34,0:02:16.34,Default,,0,0,0,,不 不{\fs14}\NNo, no.
+Dialogue: 0,0:02:16.34,0:02:18.74,Default,,0,0,0,,这个不错耶{\fs14}\NOoh, yes.
+Dialogue: 0,0:02:18.78,0:02:20.88,Default,,0,0,0,,夏安 我想要你等等{\fs14}\NCheyenne, I want you to wait until
+Dialogue: 0,0:02:20.88,0:02:23.73,Default,,0,0,0,,等你有无法阻挡的感觉的时候用力 好吗?{\fs14}\Nyou have an uncontrollable urge to push, okay?
+Dialogue: 0,0:02:23.79,0:02:26.70,Default,,0,0,0,,然后 你需要用尽全力往前推{\fs14}\NAnd then, you're gonna bear down with all your strength
+Dialogue: 0,0:02:26.75,0:02:28.97,Default,,0,0,0,,一次十秒钟左右 明白吗?{\fs14}\Nfor ten seconds at a time, okay?
+Dialogue: 0,0:02:29.01,0:02:30.72,Default,,0,0,0,,我简直不敢相信竟然你知道该怎么做{\fs14}\NI can't believe you know how to handle this.
+Dialogue: 0,0:02:30.76,0:02:34.01,Default,,0,0,0,,嗯 我在角色扮演里玩过一次妇产医生{\fs14}\NWell, i played the abortion doctor in a Hell House once.
+Dialogue: 0,0:02:34.06,0:02:35.23,Default,,0,0,0,,- 哦 棒啊 - 如果这有用的话{\fs14}\N- oh, cool. - If it helps,
+Dialogue: 0,0:02:35.23,0:02:38.00,Default,,0,0,0,,我是一个受训过的助产士{\fs14}\NI'm a trained midwife.
+Dialogue: 0,0:02:42.40,0:02:44.87,Default,,0,0,0,,- 加勒特 你在录像吗? - 是啊 为了小博{\fs14}\N- Garrett, you're filming this? - yeah, for Bo.
+Dialogue: 0,0:02:44.91,0:02:46.29,Default,,0,0,0,,- 我觉得他会想知道 - 好吧{\fs14}\N- I figured he'd want to see it. - All right.
+Dialogue: 0,0:02:46.32,0:02:47.29,Default,,0,0,0,,大家能不能回避一下?{\fs14}\NCan everyone else back up?
+Dialogue: 0,0:02:47.33,0:02:49.01,Default,,0,0,0,,这是很私人的事{\fs14}\NThis is a private moment.
+Dialogue: 0,0:02:54.80,0:02:56.10,Default,,0,0,0,,你做的很好{\fs14}\NYou're doing great.
+Dialogue: 0,0:02:56.13,0:02:58.22,Default,,0,0,0,,- 我就在这 - 不好意思 小姐{\fs14}\N- I'm right here. - excuse me, miss.
+Dialogue: 0,0:02:58.25,0:03:01.72,Default,,0,0,0,,防晒霜和防晒乳有什么区别啊?{\fs14}\NWhat's the difference between a sunblock and a sunscreen?
+Dialogue: 0,0:03:01.76,0:03:04.24,Default,,0,0,0,,来了来了! 孩子要出生了{\fs14}\NThis is it! the baby's coming!
+Dialogue: 0,0:03:10.00,0:03:11.28,Default,,0,0,0,,好的 很棒{\fs14}\NAll right. That's nice.
+Dialogue: 0,0:03:11.32,0:03:12.57,Default,,0,0,0,,我喜欢这个 这个很好{\fs14}\NI like that. i like that.
+Dialogue: 0,0:03:15.55,0:03:17.30,Default,,0,0,0,,是的 就是这样 伙伴们{\fs14}\NYeah, this is it, guys.
+Dialogue: 0,0:03:17.36,0:03:19.32,Default,,0,0,0,,来了 就是此刻{\fs14}\NIt's coming. this is the moment.
+Dialogue: 0,0:03:22.39,0:03:24.83,Default,,0,0,0,,宫缩停止了{\fs14}\NThe contractions stopped.
+Dialogue: 0,0:03:24.86,0:03:27.41,Default,,0,0,0,,啊  那就...{\fs14}\Noh. That's...
+Dialogue: 0,0:03:27.42,0:03:29.23,Default,,0,0,0,,我猜是布拉克斯顿希克斯收缩  这是假临产{\fs14}\NBraxton hicks, i guess. it's false labor.
+Dialogue: 0,0:03:30.87,0:03:33.35,Default,,0,0,0,,我觉得我得穿上我的裤子了{\fs14}\NI guess it should put on my pants now.
+Dialogue: 0,0:03:41.23,0:03:42.70,Default,,0,0,0,,公司的目标演习{\fs14}\NThe company's targeted maneuvers
+Dialogue: 0,0:03:42.73,0:03:45.21,Default,,0,0,0,,也是这个任务的一个直接反映{\fs14}\Nare also a direct reflection of its mission.
+Dialogue: 0,0:03:45.27,0:03:46.93,Default,,0,0,0,,这里写着 “云九商店的任务书是{\fs14}\NIt reads, "Cloud 9's mission
+Dialogue: 0,0:03:46.93,0:03:48.83,Default,,0,0,0,,另一篇文章{\fs14}\Nstatement is another article
+Dialogue: 0,0:03:48.87,0:03:50.55,Default,,0,0,0,,上面写着..." 好的 不好意思{\fs14}\Ncreates a..." okay, i'm sorry.
+Dialogue: 0,0:03:50.61,0:03:52.54,Default,,0,0,0,,夏安? 你还好吗?{\fs14}\NCheyenne? You okay?
+Dialogue: 0,0:03:52.57,0:03:54.29,Default,,0,0,0,,我没事{\fs14}\NI'm fine.
+Dialogue: 0,0:03:54.34,0:03:56.01,Default,,0,0,0,,我只是...{\fs14}\NI just...
+Dialogue: 0,0:03:56.06,0:03:58.61,Default,,0,0,0,,宝宝压住我的肺...{\fs14}\NThe baby's compressing my lungs...
+Dialogue: 0,0:03:58.65,0:04:01.76,Default,,0,0,0,,搞得我呼吸很困难{\fs14}\Nand making it really hard for me to just take a full breath.
+Dialogue: 0,0:04:03.50,0:04:06.44,Default,,0,0,0,,- 但我没事 不 你看起来不怎么好{\fs14}\N- But i'm okay. - No, you're not okay.
+Dialogue: 0,0:04:06.47,0:04:08.02,Default,,0,0,0,,昨天在店里{\fs14}\NYou almost gave birth to your child
+Dialogue: 0,0:04:08.07,0:04:09.32,Default,,0,0,0,,你差点就把孩子生出来了{\fs14}\NIn the store yesterday.
+Dialogue: 0,0:04:09.32,0:04:11.09,Default,,0,0,0,,是 伙计 我多希望跟这个一样好的借口{\fs14}\NYeah, dude, i wish i had an excuse
+Dialogue: 0,0:04:11.14,0:04:12.31,Default,,0,0,0,,用来逃班{\fs14}\NThis good to ditch work.
+Dialogue: 0,0:04:12.36,0:04:13.41,Default,,0,0,0,,我不能回家{\fs14}\NI can't go home.
+Dialogue: 0,0:04:13.44,0:04:15.33,Default,,0,0,0,,我要凑工时 你知道么?{\fs14}\NI need the hours, you know?
+Dialogue: 0,0:04:15.38,0:04:17.06,Default,,0,0,0,,为了我的小女儿{\fs14}\NFor this little girl.
+Dialogue: 0,0:04:18.78,0:04:21.50,Default,,0,0,0,,- 他踢你了? - 不 我只是...{\fs14}\N- Did it kick? - no, i just...
+Dialogue: 0,0:04:21.50,0:04:24.79,Default,,0,0,0,,我摸了下自己这里 然后我尿了一点{\fs14}\NI touch myself here and it makes me pee a little bit.
+Dialogue: 0,0:04:26.29,0:04:28.44,Default,,0,0,0,,太搞笑了{\fs14}\Nthis is ridiculous.
+Dialogue: 0,0:04:28.48,0:04:30.61,Default,,0,0,0,,她不需要因为怀了小孩而折磨自己{\fs14}\NShe shouldn't have to kill herself just to have a baby.
+Dialogue: 0,0:04:30.65,0:04:33.71,Default,,0,0,0,,你们知道吗? 在每个发达国家{\fs14}\NDid you guys know that in every other first-world nation,
+Dialogue: 0,0:04:33.76,0:04:35.93,Default,,0,0,0,,带薪产假是必须的{\fs14}\NPaid maternity leave is just automatic?
+Dialogue: 0,0:04:35.98,0:04:37.18,Default,,0,0,0,,哇哦 不 不 你可不能{\fs14}\NWhoa, no, no, you are not
+Dialogue: 0,0:04:37.24,0:04:39.17,Default,,0,0,0,,把我们弄上另一个新闻里面{\fs14}\Ngonna forward us another article.
+Dialogue: 0,0:04:39.20,0:04:42.66,Default,,0,0,0,,哦 哦 那真是很棒{\fs14}\NOh! oh, that was a big one.
+Dialogue: 0,0:04:42.69,0:04:44.41,Default,,0,0,0,,从这个位置看 这种会议更难熬了{\fs14}\NThese meetings are worse from up here.
+Dialogue: 0,0:05:03.81,0:05:06.20,Default,,0,0,0,,我们每个人都可以正式休一天病假{\fs14}\NEach of us would officially take a sick day,
+Dialogue: 0,0:05:06.25,0:05:07.25,Default,,0,0,0,,但我们仍然过来上班{\fs14}\NBut we'd still come in,
+Dialogue: 0,0:05:07.28,0:05:08.80,Default,,0,0,0,,然后我们打Cheyenne的卡{\fs14}\NAnd we'd clock in as cheyenne,
+Dialogue: 0,0:05:08.85,0:05:10.83,Default,,0,0,0,,这样她就可以休一天假 但仍然有工资拿{\fs14}\NSo that she can take the day off, but still get paid.
+Dialogue: 0,0:05:10.87,0:05:11.82,Default,,0,0,0,,是的{\fs14}\NRight.
+Dialogue: 0,0:05:11.87,0:05:14.05,Default,,0,0,0,,然后她晚点再付给我们?{\fs14}\NAnd she can just pay us back later?
+Dialogue: 0,0:05:14.09,0:05:17.11,Default,,0,0,0,,Cloud 9去年赚了超过十亿美金{\fs14}\NCloud 9 made over a billion dollars last year.
+Dialogue: 0,0:05:17.14,0:05:19.19,Default,,0,0,0,,我们为什么不让他们付产假的工资呢?{\fs14}\NWhy don't we just ask them to pay for maternity leave?
+Dialogue: 0,0:05:19.19,0:05:21.71,Default,,0,0,0,,哦 你想要打给公司然后问他们吗?{\fs14}\NOh, you want to just call corporate and ask them?
+Dialogue: 0,0:05:21.75,0:05:22.90,Default,,0,0,0,,听起来很简单啊{\fs14}\NThat sounds easy.
+Dialogue: 0,0:05:22.93,0:05:24.26,Default,,0,0,0,,值得一试 不是吗?{\fs14}\NIt's worth a shot, isn't it?
+Dialogue: 0,0:05:24.27,0:05:26.10,Default,,0,0,0,,我的意思是 我们能损失什么? 他们最多拒绝嘛{\fs14}\NI mean, what's the worst they can do, say no?
+Dialogue: 0,0:05:28.90,0:05:30.27,Default,,0,0,0,,员工服务处{\fs14}\NEmployee services.
+Dialogue: 0,0:05:30.30,0:05:34.22,Default,,0,0,0,,嗨 我是来自1217店的艾米 杜班诺夫斯基{\fs14}\NHi, this is Amy Dubanowski from store 1217.
+Dialogue: 0,0:05:34.26,0:05:37.14,Default,,0,0,0,,我们有个员工就要生孩子了{\fs14}\NWe have an employee here who's about to have a baby,
+Dialogue: 0,0:05:37.20,0:05:38.88,Default,,0,0,0,,我在想我们是否可以让她{\fs14}\Nand i was wondering if maybe we could get her
+Dialogue: 0,0:05:38.91,0:05:40.50,Default,,0,0,0,,休带薪产假呢?{\fs14}\Nsome paid maternity leave.
+Dialogue: 0,0:05:40.53,0:05:43.57,Default,,0,0,0,,不好意思 我们不给带薪产假的{\fs14}\NI'm sorry, we don't offer paid maternity leave.
+Dialogue: 0,0:05:43.60,0:05:44.93,Default,,0,0,0,,别就这么放弃{\fs14}\NDon't just give up.
+Dialogue: 0,0:05:46.12,0:05:47.42,Default,,0,0,0,,嗯 我们有些人{\fs14}\NWell, some of us
+Dialogue: 0,0:05:47.46,0:05:50.32,Default,,0,0,0,,在想也许你可以改改这个政策{\fs14}\Nwere wondering if you could change that policy,
+Dialogue: 0,0:05:50.36,0:05:52.91,Default,,0,0,0,,因为我们真的很希望这样{\fs14}\Nbecause we really want it.
+Dialogue: 0,0:05:52.96,0:05:56.55,Default,,0,0,0,,嗯 这个我们真的不能负责{\fs14}\NUm, that's just not something we offer.
+Dialogue: 0,0:05:56.60,0:05:58.45,Default,,0,0,0,,好的 但是 这个{\fs14}\NOkay, but is it, like, a conversation
+Dialogue: 0,0:05:58.48,0:05:59.70,Default,,0,0,0,,咱们现在进行的谈话...{\fs14}\NYou guys are having...
+Dialogue: 0,0:05:59.73,0:06:02.80,Default,,0,0,0,,因为我知道其他大公司都提供带薪产假的{\fs14}\NBecause i know other big companies do offer it.
+Dialogue: 0,0:06:02.84,0:06:04.67,Default,,0,0,0,,一般来说 他们的职工在工会里{\fs14}\NTypically, their employees would be in unions.
+Dialogue: 0,0:06:04.72,0:06:06.24,Default,,0,0,0,,转接中 请勿挂机{\fs14}\NTransferring now. please hold.
+Dialogue: 0,0:06:07.66,0:06:08.62,Default,,0,0,0,,你在做什么?{\fs14}\NWhat are you doing?
+Dialogue: 0,0:06:08.66,0:06:09.91,Default,,0,0,0,,你为什么这么说?{\fs14}\NWhy would you say that?
+Dialogue: 0,0:06:09.91,0:06:11.79,Default,,0,0,0,,- 说什么? - 你好 艾米{\fs14}\N- Say what? - Hi there, amy.
+Dialogue: 0,0:06:11.85,0:06:14.23,Default,,0,0,0,,我是职工关系部的副部长 杰瑞米{\fs14}\NThis is Jeremy, vice presidet of employee relations.
+Dialogue: 0,0:06:14.27,0:06:17.07,Default,,0,0,0,,嗨 我不是很清楚{\fs14}\NHi. i don't know exactly...
+Dialogue: 0,0:06:17.12,0:06:19.75,Default,,0,0,0,,麻烦你稍等一下 艾米{\fs14}\NDo me a solid and hang tight for one second, Amy.
+Dialogue: 0,0:06:19.80,0:06:21.87,Default,,0,0,0,,这什么情况? 我也不知道{\fs14}\N- What's happening? - I don't know.
+Dialogue: 0,0:06:21.91,0:06:23.06,Default,,0,0,0,,请等候格雷格听电话{\fs14}\NPlease hold for Greg.
+Dialogue: 0,0:06:23.06,0:06:25.06,Default,,0,0,0,,谁是格雷格? 为什么我们要找格雷格?{\fs14}\NWho's greg? why are we getting Greg?
+Dialogue: 0,0:06:25.11,0:06:26.78,Default,,0,0,0,,- 我是格雷格 - 嘿 我是杰瑞米{\fs14}\N- Go for greg. - Hey, it's Jeremy.
+Dialogue: 0,0:06:26.81,0:06:29.33,Default,,0,0,0,,我这里有法律部的蕾贝卡还有1217店的艾米{\fs14}\NI've got Rebecca from legal and Amy from store 1217,
+Dialogue: 0,0:06:29.33,0:06:30.71,Default,,0,0,0,,他们有关于关于工会的问题{\fs14}\Nwhere we've got that union problem.
+Dialogue: 0,0:06:30.77,0:06:31.93,Default,,0,0,0,,- 不不不 - 不{\fs14}\N- Oh, no! no. - No.
+Dialogue: 0,0:06:31.97,0:06:34.13,Default,,0,0,0,,我们在说带薪产假的事{\fs14}\NWe were talking about maternity leave
+Dialogue: 0,0:06:34.19,0:06:37.47,Default,,0,0,0,,然后有个烦人的人说到了"工会"这个词{\fs14}\Nand somebody very annoying mentioned the word "union."
+Dialogue: 0,0:06:37.47,0:06:40.89,Default,,0,0,0,,哇哦 不如我们深呼吸冷静一下吧{\fs14}\NWhoa, let's just all calm down, take a breath,
+Dialogue: 0,0:06:40.94,0:06:42.11,Default,,0,0,0,,从窗台旁退回来{\fs14}\NStep back from the ledge.
+Dialogue: 0,0:06:42.14,0:06:43.14,Default,,0,0,0,,不不不不{\fs14}\NNo, no, no, no.
+Dialogue: 0,0:06:43.19,0:06:44.39,Default,,0,0,0,,这没窗台{\fs14}\NNo, there's no ledge.
+Dialogue: 0,0:06:44.45,0:06:47.11,Default,,0,0,0,,- 我们没人说工会的事 - 不不{\fs14}\N- Nobody's talking about unions. - no way.
+Dialogue: 0,0:06:47.15,0:06:49.15,Default,,0,0,0,,而且也没人罢工{\fs14}\NAnd nobody's going on strike.
+Dialogue: 0,0:06:49.15,0:06:50.15,Default,,0,0,0,,请稍等{\fs14}\NPlease hold.
+Dialogue: 0,0:06:52.82,0:06:54.57,Default,,0,0,0,,我们现在接上了霍华德{\fs14}\NYeah, hi. okay, you've got Howard,
+Dialogue: 0,0:06:54.62,0:06:56.96,Default,,0,0,0,,苏 雪莉 基思 吉列尔莫...{\fs14}\NSue, Cheryl, Keith, Guillermo...
+Dialogue: 0,0:06:56.99,0:06:58.41,Default,,0,0,0,,- 好多人啊 - 蕾妮 还有艾伦也在这{\fs14}\N- That's so many people. - Renee, and Alan here.
+Dialogue: 0,0:06:59.09,0:07:00.92,Default,,0,0,0,,喂{\fs14}\NHello.
+Dialogue: 0,0:07:00.96,0:07:02.12,Default,,0,0,0,,- 你好啊 - 好啊{\fs14}\N- Hi. - Hi.
+Dialogue: 0,0:07:02.13,0:07:03.96,Default,,0,0,0,,好的 坚持住 1217{\fs14}\Nokay, hang tight down there, 1217.
+Dialogue: 0,0:07:03.96,0:07:05.29,Default,,0,0,0,,我们明早第一时间{\fs14}\NWe're sending someone down to you
+Dialogue: 0,0:07:05.35,0:07:06.34,Default,,0,0,0,,就会给你们派个人过去{\fs14}\NFirst thing tomorrow morning.
+Dialogue: 0,0:07:06.38,0:07:07.35,Default,,0,0,0,,- 不用啊 - 这样安排不错吧?{\fs14}\N- No. - Good stuff?
+Dialogue: 0,0:07:07.38,0:07:08.35,Default,,0,0,0,,不 等下{\fs14}\NNo, no, no, no, wait, wait.
+Dialogue: 0,0:07:08.38,0:07:09.68,Default,,0,0,0,,你不用这么做的{\fs14}\NYou don't have to do that.
+Dialogue: 0,0:07:09.72,0:07:11.05,Default,,0,0,0,,再见 真是愉快的谈话{\fs14}\NBye. Amazing talk.
+Dialogue: 0,0:07:14.55,0:07:17.72,Default,,0,0,0,,我怎么不知道你姓度班诺维斯基?{\fs14}\NHow did I not know your last name is Dubanowski?
+Dialogue: 0,0:07:20.63,0:07:22.71,Default,,0,0,0,,各位早上好 喝点咖啡{\fs14}\NMorning, everyone. grab some coffee.
+Dialogue: 0,0:07:22.75,0:07:25.43,Default,,0,0,0,,这里还有甜甜圈{\fs14}\NHelp yourself to a doughnut hole.
+Dialogue: 0,0:07:25.43,0:07:27.43,Default,,0,0,0,,你看到这里在发生什么了 对吧?{\fs14}\NYou see what's going on here, right?
+Dialogue: 0,0:07:27.47,0:07:30.20,Default,,0,0,0,,公司察觉到了危机 所以他们派了条鲨鱼过来{\fs14}\NCorporate smells trouble, so they send in a shark.
+Dialogue: 0,0:07:30.25,0:07:32.64,Default,,0,0,0,,一个又大又摆动着的鸡巴{\fs14}\NA big, swinging wiener.
+Dialogue: 0,0:07:32.64,0:07:34.66,Default,,0,0,0,,让他自己先显摆一番{\fs14}\NHave him swing his wiener around a little.
+Dialogue: 0,0:07:34.69,0:07:36.38,Default,,0,0,0,,给我们一点小小的处罚{\fs14}\NGive us a slap on the wrist.
+Dialogue: 0,0:07:36.43,0:07:39.98,Default,,0,0,0,,一个又大又摆动着的鸡巴对我们指关节的轻敲{\fs14}\NA little rap on the knuckles from a big, swinging wiener.
+Dialogue: 0,0:07:41.03,0:07:42.47,Default,,0,0,0,,这将会是漫长的一天{\fs14}\NThis is gonna be a long day.
+Dialogue: 0,0:07:43.63,0:07:45.10,Default,,0,0,0,,是啊{\fs14}\NYeah.
+Dialogue: 0,0:07:45.15,0:07:46.69,Default,,0,0,0,,来自1217分店的伙伴们 大家好{\fs14}\NHello, 1217.
+Dialogue: 0,0:07:46.72,0:07:49.79,Default,,0,0,0,,我的名字叫史蒂芬{\fs14}\NMy name is Steve.
+Dialogue: 0,0:07:49.79,0:07:52.06,Default,,0,0,0,,有没有人知道我是谁?{\fs14}\NDoes anyone here know who I am?
+Dialogue: 0,0:07:52.06,0:07:54.58,Default,,0,0,0,,- 我知道 工会破坏者 - 好回答{\fs14}\N- I know. a union buster. - Good one.
+Dialogue: 0,0:07:54.61,0:07:56.63,Default,,0,0,0,,我会记住这个回答的 真幽默{\fs14}\NI'm gonna remember that one. Funny.
+Dialogue: 0,0:07:56.66,0:07:59.35,Default,,0,0,0,,不 我是一个劳动关系咨询师{\fs14}\NNo, I am a labor relations consultant.
+Dialogue: 0,0:07:59.40,0:08:00.95,Default,,0,0,0,,云九不是一个反工会的公司{\fs14}\NCloud 9 isn't anti-union.
+Dialogue: 0,0:08:00.99,0:08:02.37,Default,,0,0,0,,工会对于那些{\fs14}\NUnions are great for people
+Dialogue: 0,0:08:02.37,0:08:03.82,Default,,0,0,0,,公司从不听取员工意见的人是很好的{\fs14}\NWhose companies don't listen to them.
+Dialogue: 0,0:08:03.86,0:08:05.42,Default,,0,0,0,,但是不管你的顾虑是什么{\fs14}\NBut whatever your concerns are,
+Dialogue: 0,0:08:05.47,0:08:07.91,Default,,0,0,0,,你永远能在任何时候给予他们权力来团结在一起{\fs14}\NYou can always bring them right to corporate any time.
+Dialogue: 0,0:08:07.94,0:08:10.04,Default,,0,0,0,,棒呆 我们确实是有一些问题{\fs14}\Noh, great. some of us did have some concerns
+Dialogue: 0,0:08:10.08,0:08:11.46,Default,,0,0,0,,然后我想向你问一问{\fs14}\NThat I wanted to ask you about.
+Dialogue: 0,0:08:11.51,0:08:12.85,Default,,0,0,0,,我特别愿意听一听{\fs14}\Nand i want to hear about them.
+Dialogue: 0,0:08:12.90,0:08:15.15,Default,,0,0,0,,但是首先 我们需要找一些乐子 对吗?{\fs14}\NBut first, we're gonna have some fun. yeah?
+Dialogue: 0,0:08:15.20,0:08:18.40,Default,,0,0,0,,你们都拿了咖啡和甜甜圈了嘛?{\fs14}\NHas everyone gotten some coffee and a doughnut hole?
+Dialogue: 0,0:08:18.44,0:08:20.60,Default,,0,0,0,,现在我们要做一些角色扮演的练习{\fs14}\NNow we're going to do a little role-playing exercise,
+Dialogue: 0,0:08:20.64,0:08:23.02,Default,,0,0,0,,然后我绑架了你们的经理格林来帮我一个忙{\fs14}\NAnd I’ve roped in your manager, Glenn, here to help me out.
+Dialogue: 0,0:08:24.88,0:08:26.59,Default,,0,0,0,,好吧 谢谢你{\fs14}\NUm, okay. thank you.
+Dialogue: 0,0:08:26.63,0:08:28.59,Default,,0,0,0,,你将会扮演一个工会的组织者{\fs14}\NYou're gonna play a union organizer,
+Dialogue: 0,0:08:28.65,0:08:31.50,Default,,0,0,0,,然后你要试着让我来把工会卡给签了{\fs14}\NAnd you're gonna try to get me to sign this union card.
+Dialogue: 0,0:08:31.53,0:08:32.63,Default,,0,0,0,,好吗? - 没问题{\fs14}\NOkay? - Sure.
+Dialogue: 0,0:08:32.67,0:08:34.83,Default,,0,0,0,,- 好吧 - 你好{\fs14}\N- All right. - Hi, hello.
+Dialogue: 0,0:08:34.89,0:08:37.19,Default,,0,0,0,,- 我的名字叫史蒂芬 然后这个吧工会... - 好吧{\fs14}\N- My name's Steve, and the union... - Okay.
+Dialogue: 0,0:08:37.24,0:08:38.15,Default,,0,0,0,,你知道么? 你做的很好{\fs14}\NYou know what? you're doing great.
+Dialogue: 0,0:08:38.19,0:08:39.37,Default,,0,0,0,,但是我的名字是史蒂芬{\fs14}\NBut my name is Steve,
+Dialogue: 0,0:08:39.37,0:08:40.76,Default,,0,0,0,,所以这可能会把其他人搞糊涂{\fs14}\NSo that might be a little confusing for everyone.
+Dialogue: 0,0:08:40.79,0:08:42.66,Default,,0,0,0,,所以再选一个名字{\fs14}\NSo maybe pick another name.
+Dialogue: 0,0:08:42.69,0:08:44.06,Default,,0,0,0,,好吧 没问题 抱歉{\fs14}\NOkay, sure. sorry.
+Dialogue: 0,0:08:44.11,0:08:45.48,Default,,0,0,0,,- 不好意思我有些紧张 - 你做的很好啊{\fs14}\N- Sorry I’m just a little nervous. - You're doing great.
+Dialogue: 0,0:08:45.48,0:08:46.91,Default,,0,0,0,,- 你好啊{\fs14}\N- Um, Hi.
+Dialogue: 0,0:08:46.96,0:08:49.63,Default,,0,0,0,,我的名字是...史蒂芬{\fs14}\NMy name’s...Steve.
+Dialogue: 0,0:08:49.68,0:08:50.87,Default,,0,0,0,,好吧{\fs14}\NAll right.
+Dialogue: 0,0:08:50.90,0:08:52.37,Default,,0,0,0,,在这出戏中我是史蒂芬 好吗?{\fs14}\NI'm gonna be the Steve in this scene, right?
+Dialogue: 0,0:08:52.40,0:08:53.80,Default,,0,0,0,,- 所以... - 好吧{\fs14}\N- So... - All right, all right.
+Dialogue: 0,0:08:53.84,0:08:55.22,Default,,0,0,0,,你是史蒂芬{\fs14}\NYou're Steve.
+Dialogue: 0,0:08:55.26,0:08:56.42,Default,,0,0,0,,好的{\fs14}\NOkay.
+Dialogue: 0,0:08:56.47,0:08:58.22,Default,,0,0,0,,- 对不起 我没弄懂 - 你做的很好了{\fs14}\N- Sorry, misunderstanding. - You're doing great.
+Dialogue: 0,0:08:58.23,0:08:59.64,Default,,0,0,0,,- 好吧{\fs14}\N- okay. all right.
+Dialogue: 0,0:08:59.68,0:09:00.86,Default,,0,0,0,,你好 史蒂芬{\fs14}\NHello there, Steve.
+Dialogue: 0,0:09:00.91,0:09:03.80,Default,,0,0,0,,我的名字是...{\fs14}\NMy name's...
+Dialogue: 0,0:09:06.23,0:09:07.57,Default,,0,0,0,,史蒂芬{\fs14}\NSteve.
+Dialogue: 0,0:09:07.57,0:09:08.65,Default,,0,0,0,,讲真 你知道么{\fs14}\NLiterally, you know what?
+Dialogue: 0,0:09:08.70,0:09:10.80,Default,,0,0,0,,全宇宙任何一个别的名字都行啊{\fs14}\NAny other name in the entire universe?
+Dialogue: 0,0:09:17.28,0:09:19.09,Default,,0,0,0,,史蒂芬{\fs14}\NSteve.
+Dialogue: 0,0:09:19.15,0:09:20.18,Default,,0,0,0,,好吧 这样吧{\fs14}\NOkay, you know what?
+Dialogue: 0,0:09:20.23,0:09:21.81,Default,,0,0,0,,让我们给格林一点掌声{\fs14}\NLet's give glenn a round of applause.
+Dialogue: 0,0:09:21.87,0:09:23.12,Default,,0,0,0,,你做的很好了{\fs14}\NYou did great.
+Dialogue: 0,0:09:23.12,0:09:25.58,Default,,0,0,0,,不要担心 好的{\fs14}\NNo worries. All right.
+Dialogue: 0,0:09:25.59,0:09:27.14,Default,,0,0,0,,也许我们可以找一个不同的志愿者{\fs14}\NMaybe a different volunteer.
+Dialogue: 0,0:09:27.17,0:09:29.10,Default,,0,0,0,,那个穿着紫色polo衫的怎么样?{\fs14}\NHow about you with the purple polo?
+Dialogue: 0,0:09:29.14,0:09:30.82,Default,,0,0,0,,谢谢你 迪娜{\fs14}\NThank you for that, Dina.
+Dialogue: 0,0:09:30.88,0:09:32.83,Default,,0,0,0,,迪娜现在是我们的工会组织者{\fs14}\NDina's gonna be our union organizer,
+Dialogue: 0,0:09:32.83,0:09:35.21,Default,,0,0,0,,然后她将试着去让我把工会卡给填了{\fs14}\NAnd she's gonna try to get me to sign this union card.
+Dialogue: 0,0:09:35.25,0:09:37.86,Default,,0,0,0,,让我们看迪娜是如何应对挑战的{\fs14}\NLet's see if Dina is up for the challenge.
+Dialogue: 0,0:09:39.70,0:09:41.83,Default,,0,0,0,,好吧 嗨 想不想参加工会?{\fs14}\NOkay. Hey, how'd you like to join a union?
+Dialogue: 0,0:09:41.89,0:09:43.67,Default,,0,0,0,,不 不用了 我不需要{\fs14}\NNo, thanks. I don't need to.
+Dialogue: 0,0:09:43.72,0:09:46.66,Default,,0,0,0,,云九公司已经听取了我的顾虑{\fs14}\NCloud 9 already listens to my concerns.
+Dialogue: 0,0:09:46.69,0:09:47.86,Default,,0,0,0,,我真的认为签署加入工会{\fs14}\NI really think it'd be in your best interests
+Dialogue: 0,0:09:47.91,0:09:48.87,Default,,0,0,0,,是对你自己最好的选择{\fs14}\Nto sign this card.
+Dialogue: 0,0:09:48.91,0:09:50.33,Default,,0,0,0,,请不要强迫我{\fs14}\NPlease don't bully me.
+Dialogue: 0,0:09:50.38,0:09:53.23,Default,,0,0,0,,我不需要花钱让别人替我说话{\fs14}\NI do not need to pay someone to speak for me.
+Dialogue: 0,0:09:53.26,0:09:54.95,Default,,0,0,0,,看到了? 我把她嘴给闭上了{\fs14}\NSee? I shut her down.
+Dialogue: 0,0:09:54.98,0:09:56.32,Default,,0,0,0,,这就是两个例子{\fs14}\NThose are two examples.
+Dialogue: 0,0:09:56.32,0:09:57.67,Default,,0,0,0,,不要打断我{\fs14}\NStop interrupting me.
+Dialogue: 0,0:09:57.70,0:09:59.75,Default,,0,0,0,,要么你签了这张卡 要么你小命不保{\fs14}\NYou will sign this card or i will choke the life out of you.
+Dialogue: 0,0:10:00.97,0:10:03.52,Default,,0,0,0,,迪娜算是影帝了 对吧?{\fs14}\NAnd the oscar goes to Dina. Right?
+Dialogue: 0,0:10:03.52,0:10:04.99,Default,,0,0,0,,看 她扮演的这个角色真是...{\fs14}\NSee, she was playing a character there that was...
+Dialogue: 0,0:10:05.03,0:10:06.33,Default,,0,0,0,,- 我才没在扮演角色{\fs14}\N- Oh, I’m not playing a character.
+Dialogue: 0,0:10:06.38,0:10:09.48,Default,,0,0,0,,是我迪娜在跟你 工会破坏者史蒂芬说话{\fs14}\NThis is me, Dina, talking to you, union buster Steve.
+Dialogue: 0,0:10:09.51,0:10:10.73,Default,,0,0,0,,我现在心情很不美丽{\fs14}\NI'm in a dark place right now,
+Dialogue: 0,0:10:10.77,0:10:12.90,Default,,0,0,0,,而且 公平地说 我没什么可以损失的了{\fs14}\NAnd quite frankly, i have nothing left to lose.
+Dialogue: 0,0:10:12.90,0:10:14.57,Default,,0,0,0,,所以你要么签了这张卡{\fs14}\NSo you will sign this card,
+Dialogue: 0,0:10:14.57,0:10:16.00,Default,,0,0,0,,要么我会在停车场等你{\fs14}\NOr I will be waiting for you in the parking lot
+Dialogue: 0,0:10:16.05,0:10:17.59,Default,,0,0,0,,然后在灯光找不到的地方 撺紧我的手{\fs14}\NAt the end of the night, where i will wrap my hands
+Dialogue: 0,0:10:17.64,0:10:19.14,Default,,0,0,0,,卡住你的鸡脖子{\fs14}\NAround that tiny chicken neck of yours
+Dialogue: 0,0:10:19.14,0:10:20.30,Default,,0,0,0,,然后紧紧的盯着你的眼睛{\fs14}\NAnd stare deep into your eyes
+Dialogue: 0,0:10:20.30,0:10:21.57,Default,,0,0,0,,然后静等生机熄灭{\fs14}\Nwhile I watch the lights go out.
+Dialogue: 0,0:10:24.25,0:10:25.21,Default,,0,0,0,,我们还是休息一下吧{\fs14}\NLet's take a break.
+Dialogue: 0,0:10:29.15,0:10:30.43,Default,,0,0,0,,要不我分给你一点?{\fs14}\NYou want some of mine?
+Dialogue: 0,0:10:35.42,0:10:36.96,Default,,0,0,0,,嘿 哥们{\fs14}\NHey, man.
+Dialogue: 0,0:10:37.01,0:10:40.98,Default,,0,0,0,,只是想让你知道 我知道除了史蒂芬以外的名字{\fs14}\NJust want to let you know, I know names besides Steve.
+Dialogue: 0,0:10:41.03,0:10:42.19,Default,,0,0,0,,你当然知道{\fs14}\NOf course you do.
+Dialogue: 0,0:10:42.23,0:10:44.53,Default,,0,0,0,,我还知道格林 还有...{\fs14}\NThere's glenn, and there's, um...
+Dialogue: 0,0:10:48.92,0:10:50.67,Default,,0,0,0,,史蒂芬{\fs14}\Nsteve.
+Dialogue: 0,0:10:52.77,0:10:54.02,Default,,0,0,0,,谢谢你的时间{\fs14}\NThanks for your time.
+Dialogue: 0,0:10:55.29,0:10:56.99,Default,,0,0,0,,现在事实呈现给你们了{\fs14}\NNow you have the facts.
+Dialogue: 0,0:10:57.04,0:11:00.25,Default,,0,0,0,,怎么选择利用好它们是你们的事了{\fs14}\NHow you choose to use them is up to you.
+Dialogue: 0,0:11:00.25,0:11:03.15,Default,,0,0,0,,- 谢谢大家 - 谢谢 天哪{\fs14}\N- Thank you. - oh, thank you, god.
+Dialogue: 0,0:11:03.18,0:11:04.35,Default,,0,0,0,,我懂的好吗{\fs14}\NI know, right?
+Dialogue: 0,0:11:04.35,0:11:05.57,Default,,0,0,0,,不好意思 抱歉{\fs14}\NExcuse me, sorry.
+Dialogue: 0,0:11:05.60,0:11:08.44,Default,,0,0,0,,大家对不起啊 但是你之前说{\fs14}\NSorry, guys, but you had said earlier that maybe we
+Dialogue: 0,0:11:08.49,0:11:10.46,Default,,0,0,0,,我们可以在会议的最后提出一些建议?{\fs14}\Ncould voice some concerns at the end of the meeting?
+Dialogue: 0,0:11:10.46,0:11:11.79,Default,,0,0,0,,谢谢你了啊 乔纳{\fs14}\NThank you, Jonah.
+Dialogue: 0,0:11:11.79,0:11:12.91,Default,,0,0,0,,- 我很抱歉 很抱歉 - 当然了{\fs14}\N- I’m sorry. i'm sorry. - Absolutely.
+Dialogue: 0,0:11:12.94,0:11:15.34,Default,,0,0,0,,- 云九向来广听民意 - 很好{\fs14}\N- Cloud 9 has an open door policy. - Great.
+Dialogue: 0,0:11:15.40,0:11:18.23,Default,,0,0,0,,我们几个人在讨论有没有给员工{\fs14}\NSo a couple of us were talking about the possibility
+Dialogue: 0,0:11:18.28,0:11:20.78,Default,,0,0,0,,提供带薪产假的可能性?{\fs14}\Nof paid maternity leave for the employees?
+Dialogue: 0,0:11:20.82,0:11:23.50,Default,,0,0,0,,你知道 云九一向支持提供福利和关怀{\fs14}\NYou know, Cloud 9 is devoted to supporting the welfare
+Dialogue: 0,0:11:23.54,0:11:25.04,Default,,0,0,0,,给我们所有宝贵的员工{\fs14}\Nand values of all of its workers.
+Dialogue: 0,0:11:25.09,0:11:26.72,Default,,0,0,0,,好了吗? 谢谢{\fs14}\NOkay? Thanks.
+Dialogue: 0,0:11:26.76,0:11:29.51,Default,,0,0,0,,你能不能讲的再详细一点?{\fs14}\NCould you be a little more specific?
+Dialogue: 0,0:11:29.51,0:11:30.84,Default,,0,0,0,,- 我喜欢这个 - 好{\fs14}\N- I love this. - Great.
+Dialogue: 0,0:11:30.85,0:11:33.73,Default,,0,0,0,,我们喜欢这种激情和正直{\fs14}\NWe love this kind of passion and integrity
+Dialogue: 0,0:11:33.76,0:11:35.68,Default,,0,0,0,,使云彩更加多元与完整{\fs14}\Nthat adds to all the colors of the cloud.
+Dialogue: 0,0:11:35.68,0:11:38.65,Default,,0,0,0,,好吧 但是你其实什么都没说啊{\fs14}\NGreat, but you're not actually saying anything.
+Dialogue: 0,0:11:38.69,0:11:41.15,Default,,0,0,0,,那是因为我在真诚的聆听啊{\fs14}\NThat's because i'm truly listening.
+Dialogue: 0,0:11:41.19,0:11:42.40,Default,,0,0,0,,你知道我才想到了什么吗?{\fs14}\NYou know what i just realized?
+Dialogue: 0,0:11:42.44,0:11:44.57,Default,,0,0,0,,我们给你们提供了足够的甜甜圈{\fs14}\NWe have enough doughnut holes for all of you
+Dialogue: 0,0:11:44.61,0:11:45.74,Default,,0,0,0,,所以每个人都可以再多吃一个了!{\fs14}\NTo have one more each!
+Dialogue: 0,0:11:45.78,0:11:48.49,Default,,0,0,0,,是不是? 快去吃吧 伙计们{\fs14}\NRight? Dig in, everyone.
+Dialogue: 0,0:11:48.53,0:11:50.91,Default,,0,0,0,,大家啊 甜甜圈在这放了几个小时了{\fs14}\NGuys, they've been there for hours.
+Dialogue: 0,0:11:58.03,0:12:00.20,Default,,0,0,0,,这会议真特么搞笑{\fs14}\NThat meeting was such a joke.
+Dialogue: 0,0:12:00.25,0:12:02.00,Default,,0,0,0,,他们压根不会为夏安做一点事{\fs14}\NThey're not going to do anything for Cheyenne.
+Dialogue: 0,0:12:02.05,0:12:03.05,Default,,0,0,0,,他们压根就不在乎{\fs14}\NThey don't care.
+Dialogue: 0,0:12:03.10,0:12:04.55,Default,,0,0,0,,你现在才发现啊{\fs14}\NYou're just realizing that now.
+Dialogue: 0,0:12:04.59,0:12:06.99,Default,,0,0,0,,这家公司连甜甜圈都不给{\fs14}\NThis company, that wouldn't even spring for full doughnuts,
+Dialogue: 0,0:12:07.04,0:12:08.27,Default,,0,0,0,,只提供缩小版的面包球{\fs14}\Njust doughnut holes
+Dialogue: 0,0:12:08.31,0:12:10.46,Default,,0,0,0,,这不仅仅是夏安的事{\fs14}\NIt's not just about Cheyenne.
+Dialogue: 0,0:12:10.46,0:12:11.71,Default,,0,0,0,,这关乎到我们所有人{\fs14}\NIt's about all of us.
+Dialogue: 0,0:12:11.74,0:12:14.11,Default,,0,0,0,,我们是让这个公司运行下去的人{\fs14}\NWe're the people that make this company run.
+Dialogue: 0,0:12:14.15,0:12:16.50,Default,,0,0,0,,他们得学会对我们好一些{\fs14}\NThey need to start treating us better.
+Dialogue: 0,0:12:16.55,0:12:17.96,Default,,0,0,0,,就像马特奥... 昨天你{\fs14}\NLike mateo... what was it you were
+Dialogue: 0,0:12:17.96,0:12:19.20,Default,,0,0,0,,抱怨什么玩意来着?{\fs14}\Ncomplaining about yesterday?
+Dialogue: 0,0:12:19.24,0:12:20.13,Default,,0,0,0,,记得吗?{\fs14}\NRemember?
+Dialogue: 0,0:12:20.19,0:12:21.32,Default,,0,0,0,,恩{\fs14}\Nyeah.
+Dialogue: 0,0:12:21.35,0:12:23.44,Default,,0,0,0,,- 为什么我们的顾客都长得这么丑? - 嗯哼 没错{\fs14}\N- Why are our customers so ugly? - mm, yeah.
+Dialogue: 0,0:12:23.47,0:12:26.56,Default,,0,0,0,,不是这个 他们怎样把我们工时控制在40小时以下{\fs14}\NNo, how they keep us under 40 hours
+Dialogue: 0,0:12:26.59,0:12:28.11,Default,,0,0,0,,这样他们就不用给我们奖金了 是这件事{\fs14}\NSo they don't have to give us benefits?
+Dialogue: 0,0:12:28.14,0:12:30.41,Default,,0,0,0,,哦 对 是的 这个也很操蛋{\fs14}\Noh, right, yeah. that sucks too.
+Dialogue: 0,0:12:30.46,0:12:32.43,Default,,0,0,0,,我五年都没长过薪水了{\fs14}\NI haven't had a raise in five years.
+Dialogue: 0,0:12:32.47,0:12:34.77,Default,,0,0,0,,- 看到了吧 - 我就说说而已{\fs14}\N-There you go. -I mean, not to complain.
+Dialogue: 0,0:12:34.82,0:12:35.95,Default,,0,0,0,,对不起 我又瞎逼逼了{\fs14}\NSorry, i'm babbling.
+Dialogue: 0,0:12:35.99,0:12:37.37,Default,,0,0,0,,- 对不起 - 不不不{\fs14}\N- Sorry. - No, no.
+Dialogue: 0,0:12:37.42,0:12:39.34,Default,,0,0,0,,我们就应该为自己发声{\fs14}\NWe should be speaking up about this.
+Dialogue: 0,0:12:39.37,0:12:41.94,Default,,0,0,0,,好吧我们好像没什么谈判的筹码{\fs14}\NIt's like we don't have any leverage.
+Dialogue: 0,0:12:41.97,0:12:44.78,Default,,0,0,0,,你知道吗 也许我们真该成立个工会{\fs14}\NYou know, maybe we should form a union.
+Dialogue: 0,0:12:44.83,0:12:46.29,Default,,0,0,0,,嘿 冷静点{\fs14}\NOkay, calm down.
+Dialogue: 0,0:12:46.33,0:12:47.67,Default,,0,0,0,,伙计 你不能让这里的每个人都{\fs14}\NDude, you can't get everybody
+Dialogue: 0,0:12:47.67,0:12:48.96,Default,,0,0,0,,同意加入公会{\fs14}\Nhere to agree to join a union.
+Dialogue: 0,0:12:48.97,0:12:51.93,Default,,0,0,0,,我们甚至在夏季烧烤的主题上都统一不了{\fs14}\NWe couldn't even agree on a theme for our summer barbecue.
+Dialogue: 0,0:12:51.93,0:12:55.60,Default,,0,0,0,,最后成了"哈利波特海下的八十年代阿拉伯之夜"{\fs14}\NEnded up being "1980s Arabian nights under the sea harry potter."
+Dialogue: 0,0:12:55.64,0:12:58.39,Default,,0,0,0,,所以你就想一点改变都没有吗?{\fs14}\NSo you just want everything to stay exactly the same?
+Dialogue: 0,0:12:58.42,0:12:59.39,Default,,0,0,0,,这太荒唐了!{\fs14}\NThat's ridiculous!
+Dialogue: 0,0:12:59.43,0:13:00.94,Default,,0,0,0,,如果罗莎·帕克斯当初...{\fs14}\NWhat if rosa parks...
+Dialogue: 0,0:13:00.98,0:13:01.94,Default,,0,0,0,,懂了{\fs14}\NGot it.
+Dialogue: 0,0:13:01.94,0:13:03.28,Default,,0,0,0,,扯远了 我的错{\fs14}\NAmped up, sorry.
+Dialogue: 0,0:13:04.30,0:13:07.38,Default,,0,0,0,,瞧瞧他 这个大码裤先生{\fs14}\NLook at him. Mr. Big Pants.
+Dialogue: 0,0:13:07.42,0:13:08.97,Default,,0,0,0,,就一直等着我们出糗{\fs14}\NJust waiting for us to slip up
+Dialogue: 0,0:13:08.97,0:13:10.62,Default,,0,0,0,,这样他就能再来教训我们了{\fs14}\Nso he can bring hammer down.
+Dialogue: 0,0:13:10.65,0:13:12.95,Default,,0,0,0,,我觉得他就是在喝咖啡而已{\fs14}\NI think he's just having a coffee.
+Dialogue: 0,0:13:13.01,0:13:14.81,Default,,0,0,0,,拉倒吧{\fs14}\NOh, come on.
+Dialogue: 0,0:13:14.84,0:13:16.86,Default,,0,0,0,,大码裤小子{\fs14}\NMr. Big Pants.
+Dialogue: 0,0:13:16.89,0:13:19.94,Default,,0,0,0,,到处甩着他那又臭又长的小鸡鸡{\fs14}\NJust swinging that big old wiener around.
+Dialogue: 0,0:13:20.00,0:13:21.28,Default,,0,0,0,,你这话我没法接{\fs14}\Nand we're back to wiener.
+Dialogue: 0,0:13:24.33,0:13:25.52,Default,,0,0,0,,给你{\fs14}\NHere.
+Dialogue: 0,0:13:25.57,0:13:27.35,Default,,0,0,0,,有人让我把这些拿给你读{\fs14}\NI was told to hand you these to read,
+Dialogue: 0,0:13:27.40,0:13:29.04,Default,,0,0,0,,这也是我工作的一部分{\fs14}\N'cause that's my job now.
+Dialogue: 0,0:13:29.07,0:13:30.59,Default,,0,0,0,,负责送文件{\fs14}\NI drop off pieces of paper.
+Dialogue: 0,0:13:31.96,0:13:33.22,Default,,0,0,0,,看呐{\fs14}\NLook at that.
+Dialogue: 0,0:13:33.26,0:13:34.78,Default,,0,0,0,,搞定{\fs14}\NNailed it.
+Dialogue: 0,0:13:34.81,0:13:37.75,Default,,0,0,0,,- 嘿 你想读一次吗? - 我?{\fs14}\N- Hey, you want to read one? -M e?
+Dialogue: 0,0:13:37.78,0:13:39.61,Default,,0,0,0,,就算这件事并不是上司的工作{\fs14}\NI mean, it's not exactly like being the boss,
+Dialogue: 0,0:13:39.67,0:13:42.22,Default,,0,0,0,,但确实有点上帝之声的感觉{\fs14}\NBut it has sort of a voice of god quality about it.
+Dialogue: 0,0:13:42.25,0:13:43.53,Default,,0,0,0,,因为大家都得听你讲话{\fs14}\NEveryone has to listen to you.
+Dialogue: 0,0:13:47.57,0:13:49.54,Default,,0,0,0,,注意啦 云九顾客{\fs14}\NAttention, Cloud 9 shoppers.
+Dialogue: 0,0:13:49.59,0:13:51.46,Default,,0,0,0,,包装纸和礼品袋{\fs14}\NWe are offering a 10% discount
+Dialogue: 0,0:13:51.46,0:13:53.73,Default,,0,0,0,,现在打九折{\fs14}\NOn all wrapping paper and gift bags.
+Dialogue: 0,0:13:53.76,0:13:57.58,Default,,0,0,0,,心动不如行动{\fs14}\NCome check out this heavenly deal.
+Dialogue: 0,0:13:57.62,0:13:59.88,Default,,0,0,0,,怎么样 很爽吧?{\fs14}\NFeels powerful, right?
+Dialogue: 0,0:13:59.92,0:14:01.94,Default,,0,0,0,,哦不 我只是第一次觉得我的声音{\fs14}\Nno, i just never realize my voice
+Dialogue: 0,0:14:01.97,0:14:04.57,Default,,0,0,0,,竟然这么弱小{\fs14}\NHad just such a weak, tinny quality.
+Dialogue: 0,0:14:04.61,0:14:06.71,Default,,0,0,0,,不不 你嗓音超赞{\fs14}\NNo, you've got a nice voice.
+Dialogue: 0,0:14:06.74,0:14:09.09,Default,,0,0,0,,不 你成功地侮辱了我{\fs14}\NNo, you've succeeded in humiliating me.
+Dialogue: 0,0:14:09.13,0:14:10.91,Default,,0,0,0,,“你成功地侮辱了我”{\fs14}\N"You've succeeded in humiliating me."
+Dialogue: 0,0:14:10.95,0:14:12.40,Default,,0,0,0,,就这样 我声音听起来就这样{\fs14}\NThat's me. that's what i sound like.
+Dialogue: 0,0:14:12.43,0:14:13.40,Default,,0,0,0,,你听起来一点都不像...{\fs14}\NYou don't sound anything like...
+Dialogue: 0,0:14:13.43,0:14:14.47,Default,,0,0,0,,别再让我说话了{\fs14}\NStop making me talk.
+Dialogue: 0,0:14:14.50,0:14:15.82,Default,,0,0,0,,真他妈像一场噩梦{\fs14}\NThis is a nightmare.
+Dialogue: 0,0:14:17.10,0:14:18.70,Default,,0,0,0,,-“联合意向” - 没错{\fs14}\N-“Intent to unionize." -Yep.
+Dialogue: 0,0:14:18.75,0:14:21.52,Default,,0,0,0,,“国际环卫工人兄弟会”{\fs14}\N"international brotherhood of sanitation workers."
+Dialogue: 0,0:14:21.56,0:14:22.67,Default,,0,0,0,,我网上抄的{\fs14}\NI printed it off the web.
+Dialogue: 0,0:14:22.73,0:14:24.02,Default,,0,0,0,,我会划掉然后填上云九的{\fs14}\NI'm gonna cross that out and write “Cloud 9."
+Dialogue: 0,0:14:24.06,0:14:26.11,Default,,0,0,0,,伙计 今天早晨开的那个又早又长的会{\fs14}\Ni'm sorry, were you not at that extremely long
+Dialogue: 0,0:14:26.15,0:14:27.36,Default,,0,0,0,,你到底有没有听啊?{\fs14}\Nand early meeting this morning?
+Dialogue: 0,0:14:27.40,0:14:29.80,Default,,0,0,0,,当然了 有啊 但它只让我确定了一件事{\fs14}\NYeah, i was, and all it did was confirm
+Dialogue: 0,0:14:29.83,0:14:31.16,Default,,0,0,0,,除非我们做点什么的话{\fs14}\NThat nothing is gonna change
+Dialogue: 0,0:14:31.16,0:14:32.68,Default,,0,0,0,,那就是这里一切都不会改变{\fs14}\Naround here unless we change it
+Dialogue: 0,0:14:32.72,0:14:35.30,Default,,0,0,0,,如果你真的想帮夏安的话 这就是唯一的方法{\fs14}\NIf you want to help Cheyenne, this is the way to do it.
+Dialogue: 0,0:14:35.30,0:14:36.69,Default,,0,0,0,,不 你脑子进水了吧{\fs14}\NNo, this is stupid.
+Dialogue: 0,0:14:36.72,0:14:37.99,Default,,0,0,0,,但是值得一试啊{\fs14}\NIt's worth a shot.
+Dialogue: 0,0:14:38.02,0:14:40.54,Default,,0,0,0,,不！这一切都是因为最一开始你说{\fs14}\NNo! That's what you said about calling corporate
+Dialogue: 0,0:14:40.58,0:14:41.96,Default,,0,0,0,,要给公司打电话的{\fs14}\NIn the first place.
+Dialogue: 0,0:14:41.99,0:14:44.30,Default,,0,0,0,,- 不是什么鬼都能试 - 很抱歉{\fs14}\N- Not everything is worth a shot. - I’m sorry.
+Dialogue: 0,0:14:44.35,0:14:47.18,Default,,0,0,0,,我只是不习惯当我身边的人需要帮助的时候{\fs14}\NI'm not the kind of person who just stands by doing nothing
+Dialogue: 0,0:14:47.22,0:14:49.02,Default,,0,0,0,,而我却坐视不管{\fs14}\Nwhile people around me need help.
+Dialogue: 0,0:14:49.02,0:14:51.62,Default,,0,0,0,,好了 好了 我懂了{\fs14}\NOh. okay. yeah, i get it.
+Dialogue: 0,0:14:51.65,0:14:53.40,Default,,0,0,0,,你那小脑瓜里正幻想着{\fs14}\NYou have an image of your head
+Dialogue: 0,0:14:53.41,0:14:55.16,Default,,0,0,0,,你领导所有的工人{\fs14}\Nof leading all the workers out
+Dialogue: 0,0:14:55.21,0:14:57.66,Default,,0,0,0,,进行一场愚蠢的大罢工{\fs14}\NIn some dramatic walkout,
+Dialogue: 0,0:14:57.66,0:14:59.39,Default,,0,0,0,,然后你就能碾压那个男的了{\fs14}\NAnd you're gonna bring down the man.
+Dialogue: 0,0:14:59.43,0:15:01.15,Default,,0,0,0,,我跟你讲{\fs14}\NBut let me tell you something.
+Dialogue: 0,0:15:01.18,0:15:03.06,Default,,0,0,0,,现实是人们的工作岌岌可危{\fs14}\NReal people's jobs are at stake.
+Dialogue: 0,0:15:03.10,0:15:04.68,Default,,0,0,0,,你把我形容成一个愚蠢的空想家{\fs14}\NI am so sick and tired
+Dialogue: 0,0:15:04.73,0:15:07.35,Default,,0,0,0,,而把自己看作是有智慧的实干家{\fs14}\Nof being painted as the stupid idealist
+Dialogue: 0,0:15:07.40,0:15:09.10,Default,,0,0,0,,这种做法真是又恶心又无聊{\fs14}\Nwhile you get to be the smart, pragmatic one.
+Dialogue: 0,0:15:09.16,0:15:10.60,Default,,0,0,0,,我没说你蠢{\fs14}\NI’m not saying you're stupid.
+Dialogue: 0,0:15:10.61,0:15:12.77,Default,,0,0,0,,我只是说你压根不知道真是世界是什么样的{\fs14}\NI'm saying you don't know how the real world works.
+Dialogue: 0,0:15:12.83,0:15:13.99,Default,,0,0,0,,不知道世界是什么样{\fs14}\NThere's a difference between
+Dialogue: 0,0:15:13.99,0:15:15.16,Default,,0,0,0,,和没胆子做出改变{\fs14}\Nnot knowing how the real world
+Dialogue: 0,0:15:15.19,0:15:18.08,Default,,0,0,0,,完全是两回事好嘛{\fs14}\Nworks and not having the guts to do something about it.
+Dialogue: 0,0:15:18.11,0:15:19.95,Default,,0,0,0,,- 哦 呵呵 - 她在生孩子吗?{\fs14}\N- Oh, okay. - Is she having her baby?
+Dialogue: 0,0:15:21.62,0:15:23.70,Default,,0,0,0,,- 是 我觉得是 - 我们得...{\fs14}\N- Yeah, i think so. - We should...
+Dialogue: 0,0:15:23.75,0:15:25.09,Default,,0,0,0,,对{\fs14}\NYeah.
+Dialogue: 0,0:18:01.41,0:18:04.08,Default,,0,0,0,,天呀 夏安 她太可爱啦{\fs14}\NOh, Cheyenne, she's awesome.
+Dialogue: 0,0:18:04.08,0:18:05.58,Default,,0,0,0,,小风琴{\fs14}\NHarmonica.
+Dialogue: 0,0:18:06.58,0:18:09.00,Default,,0,0,0,,那个 你能先别为我的孩子做洗礼了吗{\fs14}\NOh, could you not baptize my baby?
+Dialogue: 0,0:18:09.00,0:18:10.42,Default,,0,0,0,,啊 抱歉抱歉{\fs14}\NOh, i'm sorry.
+Dialogue: 0,0:18:10.42,0:18:12.14,Default,,0,0,0,,都是我的习惯{\fs14}\NForce of habit.
+Dialogue: 0,0:18:12.14,0:18:13.42,Default,,0,0,0,,格伦 没关系的{\fs14}\NGlenn, if it's okay,
+Dialogue: 0,0:18:13.42,0:18:15.59,Default,,0,0,0,,我明天 估计要晚十分钟到了{\fs14}\NI might just be, like, ten minutes late tomorrow.
+Dialogue: 0,0:18:15.59,0:18:18.43,Default,,0,0,0,,夏安 你明天真的不用来了{\fs14}\NCheyenne, you are not coming to work tomorrow.
+Dialogue: 0,0:18:18.43,0:18:19.81,Default,,0,0,0,,但是我需要我的工资呀{\fs14}\NI need the money,
+Dialogue: 0,0:18:19.81,0:18:22.51,Default,,0,0,0,,而且据说我明天那时就止血了{\fs14}\Nand they said i would mostly be done bleeding by then.
+Dialogue: 0,0:18:22.52,0:18:25.27,Default,,0,0,0,,但是你应该和孩子待在一起呀{\fs14}\NBut you should be with the baby, though.
+Dialogue: 0,0:18:25.27,0:18:27.52,Default,,0,0,0,,没关系的 我妈妈会照顾她的{\fs14}\NIt's okay. my mom can watch her.
+Dialogue: 0,0:18:27.52,0:18:29.44,Default,,0,0,0,,我会留点我的衣服给她{\fs14}\NI'm gonna leave her with some of my clothes,
+Dialogue: 0,0:18:29.44,0:18:31.57,Default,,0,0,0,,这样他就能先熟悉我的气味啦{\fs14}\NSo she can start to learn my smell.
+Dialogue: 0,0:18:34.94,0:18:36.99,Default,,0,0,0,,夏安 我不允许你这样做{\fs14}\NCheyenne, this is unacceptable.
+Dialogue: 0,0:18:37.00,0:18:39.11,Default,,0,0,0,,你让我们大家都不能专心工作{\fs14}\NYou've distracted us from our work.
+Dialogue: 0,0:16:08.37,0:16:10.88,Default,,0,0,0,,你把地板弄得乱七八糟的{\fs14}\NYou've left your insides all over the floor,
+Dialogue: 0,0:16:11.04,0:16:12.93,Default,,0,0,0,,现在竟然还把孩子带来上班{\fs14}\NAnd now you've brought your child to work.
+Dialogue: 0,0:16:13.04,0:16:14.26,Default,,0,0,0,,- 格林 你在干嘛... - 不{\fs14}\N- Glenn, what are you... - no, no, no.
+Dialogue: 0,0:16:14.33,0:16:15.30,Default,,0,0,0,,我是认真的{\fs14}\NI mean it.
+Dialogue: 0,0:16:15.42,0:16:16.76,Default,,0,0,0,,你被停职了{\fs14}\NYou're suspended.
+Dialogue: 0,0:16:16.93,0:16:18.22,Default,,0,0,0,,四周{\fs14}\NFor four weeks.
+Dialogue: 0,0:16:18.28,0:16:19.60,Default,,0,0,0,,带薪{\fs14}\NWith pay.
+Dialogue: 0,0:16:21.18,0:16:22.69,Default,,0,0,0,,- 但... - 你还狡辩?{\fs14}\N- but I... - But?
+Dialogue: 0,0:16:22.77,0:16:24.46,Default,,0,0,0,,你想让四周变六周吗?{\fs14}\NYou want to make it six weeks?
+Dialogue: 0,0:16:24.60,0:16:26.56,Default,,0,0,0,,好啊 决定了 就六周{\fs14}\NOkay, fine. bam. six weeks.
+Dialogue: 0,0:16:26.66,0:16:27.64,Default,,0,0,0,,带薪停职{\fs14}\NPaid suspension.
+Dialogue: 0,0:16:27.86,0:16:30.47,Default,,0,0,0,,还要继续狡辩吗 小盆友?{\fs14}\NYou want to keep going, missy?
+Dialogue: 0,0:16:30.73,0:16:32.14,Default,,0,0,0,,不了{\fs14}\Nno, I’m good.
+Dialogue: 0,0:16:32.39,0:16:33.38,Default,,0,0,0,,很好{\fs14}\Ngood.
+Dialogue: 0,0:16:33.56,0:16:35.38,Default,,0,0,0,,我准备好走了{\fs14}\NI’m ready to go now.
+Dialogue: 0,0:16:35.48,0:16:36.48,Default,,0,0,0,,- 谢啦 - 拜拜 小口琴{\fs14}\N- Thank you. - Bye, Harmonica.
+Dialogue: 0,0:16:36.56,0:16:37.62,Default,,0,0,0,,拜{\fs14}\NBye.
+Dialogue: 0,0:16:37.77,0:16:38.99,Default,,0,0,0,,恭喜啊{\fs14}\NCongratulations.
+Dialogue: 0,0:16:40.90,0:16:43.41,Default,,0,0,0,,请进{\fs14}\NYeah.
+Dialogue: 0,0:16:43.71,0:16:45.52,Default,,0,0,0,,嗨 格林{\fs14}\NHey, Glenn.
+Dialogue: 0,0:16:45.71,0:16:47.15,Default,,0,0,0,,我想说{\fs14}\NI just wanted to say that what
+Dialogue: 0,0:16:47.22,0:16:48.65,Default,,0,0,0,,你刚才做的太帅了{\fs14}\Nyou did back there was awesome.
+Dialogue: 0,0:16:48.80,0:16:50.01,Default,,0,0,0,,谢谢{\fs14}\NThank you.
+Dialogue: 0,0:16:50.12,0:16:53.14,Default,,0,0,0,,别担心 你都不会注意到咱们少了夏安{\fs14}\NDon't worry. you won't even notice Cheyenne is gone.
+Dialogue: 0,0:16:53.24,0:16:54.32,Default,,0,0,0,,我不担心{\fs14}\NI’m not worried.
+Dialogue: 0,0:16:54.41,0:16:56.16,Default,,0,0,0,,以后就轮不到我担心了{\fs14}\NIt's not my problem anymore.
+Dialogue: 0,0:16:57.50,0:16:58.81,Default,,0,0,0,,你在...你在说什么?{\fs14}\NWhat are you...what are you talking about?
+Dialogue: 0,0:16:58.92,0:17:00.83,Default,,0,0,0,,嗯 我被炒了{\fs14}\Nyeah, they let me go.
+Dialogue: 0,0:17:00.92,0:17:02.09,Default,,0,0,0,,- 什么? - 嗯{\fs14}\N- what? - yeah.
+Dialogue: 0,0:17:02.17,0:17:03.43,Default,,0,0,0,,他们不能就这么开除你{\fs14}\N- They can't just fire you.
+Dialogue: 0,0:17:03.53,0:17:04.81,Default,,0,0,0,,你整个人生都奉献给这个地方了{\fs14}\NYou've given your whole life to this place.
+Dialogue: 0,0:17:04.92,0:17:08.14,Default,,0,0,0,,没事的 我还是会整天在店里闲晃的{\fs14}\NDon't worry, i'll still be in the store all the time.
+Dialogue: 0,0:17:08.24,0:17:09.83,Default,,0,0,0,,只不过是以客人的身份罢了{\fs14}\NJust as a customer.
+Dialogue: 0,0:17:10.01,0:17:12.25,Default,,0,0,0,,我会问你诸如 "嘿 牙线在哪儿啊?"{\fs14}\NI'll say stuff like, “Hey, can you tell me
+Dialogue: 0,0:17:12.35,0:17:14.03,Default,,0,0,0,,之类的蠢问题{\fs14}\Nwhere the dental floss is?"
+Dialogue: 0,0:17:14.20,0:17:16.72,Default,,0,0,0,,不过也有可能不问啦 因为我知道它们在哪儿{\fs14}\NWell, probably not, cause I already know where it is.
+Dialogue: 0,0:17:16.93,0:17:18.89,Default,,0,0,0,,除非你决定要换位置放{\fs14}\NUnless you decide to move it.
+Dialogue: 0,0:17:20.10,0:17:22.20,Default,,0,0,0,,什么? 你在说啥?{\fs14}\NWhat? What are you talking about?
+Dialogue: 0,0:17:22.26,0:17:23.83,Default,,0,0,0,,他们让我推荐个人{\fs14}\Nthey asked me if i wanted to make
+Dialogue: 0,0:17:23.93,0:17:25.47,Default,,0,0,0,,作为我的继位者{\fs14}\NA suggestion for my replacement,
+Dialogue: 0,0:17:25.60,0:17:28.54,Default,,0,0,0,,而你是最了解这家店的人{\fs14}\Nand nobody knows this store better than you.
+Dialogue: 0,0:17:28.66,0:17:31.23,Default,,0,0,0,,我拒绝 我不做{\fs14}\Num, no. i'm not doing it.
+Dialogue: 0,0:17:31.33,0:17:32.71,Default,,0,0,0,,那他们会让别人来做的啊{\fs14}\NThen they'll just get someone else.
+Dialogue: 0,0:17:32.82,0:17:35.12,Default,,0,0,0,,我不在乎 格林 我不要拿你的工作{\fs14}\NI don't care, Glenn. I’m not taking your job.
+Dialogue: 0,0:17:35.26,0:17:36.81,Default,,0,0,0,,艾米 等等!{\fs14}\NAmy, wait!
+Dialogue: 0,0:17:37.04,0:17:40.34,Default,,0,0,0,,到了明天 总有一个人会坐在那个椅子上{\fs14}\NSomeone is going to be in that chair tomorrow.
+Dialogue: 0,0:17:40.53,0:17:44.61,Default,,0,0,0,,而那个人必须得好好照顾我们全体的员工{\fs14}\NAnd that person has to take care of everyone in this store.
+Dialogue: 0,0:17:44.82,0:17:48.64,Default,,0,0,0,,与其让一个陌生人掌权 我宁愿让你来{\fs14}\NI'd rather that person be you than some stranger.
+Dialogue: 0,0:17:52.47,0:17:54.56,Default,,0,0,0,,艾米 你是一个领导者{\fs14}\NAmy, you're a leader,
+Dialogue: 0,0:17:54.72,0:17:57.47,Default,,0,0,0,,而这些人需要一个能引领他们的人{\fs14}\NAnd the people here need a leader.
+Dialogue: 0,0:17:58.69,0:17:59.90,Default,,0,0,0,,你能做到吗?{\fs14}\NCan you do that?
+Dialogue: 0,0:18:03.90,0:18:05.43,Default,,0,0,0,,嗯{\fs14}\Nyeah.
+Dialogue: 0,0:18:05.70,0:18:06.94,Default,,0,0,0,,我可以{\fs14}\NI can do it.
+Dialogue: 0,0:18:10.37,0:18:11.49,Default,,0,0,0,,乔纳{\fs14}\NJonah.
+Dialogue: 0,0:18:11.64,0:18:12.71,Default,,0,0,0,,你肯定又要说我做错了{\fs14}\NYou think I’m doing it wrong,
+Dialogue: 0,0:18:12.82,0:18:14.67,Default,,0,0,0,,但如果我这么摆的话{\fs14}\NBut if we stack them five wide and low,
+Dialogue: 0,0:18:14.75,0:18:18.27,Default,,0,0,0,,这些就没那么容易被推倒了{\fs14}\NThey're less prone to toppling.
+Dialogue: 0,0:18:18.48,0:18:20.61,Default,,0,0,0,,- 怎么了? - 他们把格林开除了{\fs14}\N- What's wrong? - They fired Glenn.
+Dialogue: 0,0:18:21.05,0:18:23.58,Default,,0,0,0,,- 什么? - 对 所以说{\fs14}\N- what? - yeah, so, um...
+Dialogue: 0,0:18:23.72,0:18:24.85,Default,,0,0,0,,关于那场罢工{\fs14}\NAbout that walkout.
+Dialogue: 0,0:18:26.47,0:18:27.47,Default,,0,0,0,,马特奥{\fs14}\NMateo.
+Dialogue: 0,0:18:27.72,0:18:29.18,Default,,0,0,0,,格林被开除了 我们要罢工{\fs14}\NGlenn got fired. we're walking out.
+Dialogue: 0,0:18:29.26,0:18:30.26,Default,,0,0,0,,你要加入吗?{\fs14}\NAre you coming?
+Dialogue: 0,0:18:30.35,0:18:31.27,Default,,0,0,0,,当然{\fs14}\Nyeah.
+Dialogue: 0,0:18:35.85,0:18:38.74,Default,,0,0,0,,抱歉 想弄出青绿色那种效果{\fs14}\NSorry, was doing a teal and green story.
+Dialogue: 0,0:18:39.02,0:18:40.53,Default,,0,0,0,,加勒特 所有的员工{\fs14}\Ngarrett, all the employees
+Dialogue: 0,0:18:40.60,0:18:43.65,Default,,0,0,0,,都要早退因为大家要罢工{\fs14}\Nare leaving early because they're staging a walkout
+Dialogue: 0,0:18:43.91,0:18:45.27,Default,,0,0,0,,因为格林被开除了{\fs14}\Nbecause Glenn got fired.
+Dialogue: 0,0:18:45.42,0:18:46.98,Default,,0,0,0,,没问题 哥们 这理由行啊{\fs14}\NSure, man, that works.
+Dialogue: 0,0:19:12.88,0:19:14.89,Default,,0,0,0,,你还没把卡还我呢{\fs14}\NYou still have my credit card.
+Dialogue: 0,0:19:15.10,0:19:16.25,Default,,0,0,0,,人呢?{\fs14}\NHello?
+Dialogue: 0,0:19:31.90,0:19:34.09,Default,,0,0,0,,天哪 你们不用这样做的{\fs14}\NOh, no, no. you guys do not have to do this.
+Dialogue: 0,0:19:34.37,0:19:35.55,Default,,0,0,0,,好吧 我知道了 我理解{\fs14}\NOkay, you know what? I understand
+Dialogue: 0,0:19:35.71,0:19:36.75,Default,,0,0,0,,你们因为格林的事情很不开心{\fs14}\NThat you're upset about Glenn.
+Dialogue: 0,0:19:36.86,0:19:38.69,Default,,0,0,0,,我知道了也理解 不不{\fs14}\NI know and i get that. no, no.
+Dialogue: 0,0:19:38.88,0:19:40.38,Default,,0,0,0,,拜托 公司爱你们的啊{\fs14}\NCome on. Corporate cares.
+Dialogue: 0,0:19:41.29,0:19:42.67,Default,,0,0,0,,当然了 格林{\fs14}\NSure, Glenn.
+Dialogue: 0,0:19:42.84,0:19:47.54,Default,,0,0,0,,给自己弄个新车吧 就一次{\fs14}\NHelp yourself to a brand-new car, just this once.
+Dialogue: 0,0:19:47.72,0:19:48.81,Default,,0,0,0,,工作进展也很好{\fs14}\NJob's going great.
+Dialogue: 0,0:19:49.02,0:19:50.90,Default,,0,0,0,,不会出现什么问题的{\fs14}\NWhat could possibly go wrong?
+Dialogue: 0,0:19:57.93,0:19:59.94,Default,,0,0,0,,能管用吗{\fs14}\NIs this gonna work?
+Dialogue: 0,0:20:00.40,0:20:01.87,Default,,0,0,0,,我也不确定{\fs14}\NI don't know.
+Dialogue: 0,0:20:02.27,0:20:04.09,Default,,0,0,0,,但值得一试 对吧?{\fs14}\NBut it's worth a shot, right?
+Dialogue: 0,0:20:04.27,0:20:06.89,Default,,0,0,0,,现在干嘛?{\fs14}\NSo what now?
+Dialogue: 0,0:20:22.75,0:20:24.16,Default,,0,0,0,,大家注意{\fs14}\NAttention, please.
+Dialogue: 0,0:20:24.42,0:20:25.94,Default,,0,0,0,,注意听{\fs14}\NListen up.
+Dialogue: 0,0:20:26.31,0:20:27.85,Default,,0,0,0,,我想说两句{\fs14}\NI have something i'd like to say.
+Dialogue: 0,0:20:28.96,0:20:30.30,Default,,0,0,0,,我知道你们都很不安{\fs14}\NI know you're scared.
+Dialogue: 0,0:20:31.29,0:20:32.98,Default,,0,0,0,,这是个重大时刻{\fs14}\NThis is a big moment.
+Dialogue: 0,0:20:33.30,0:20:34.98,Default,,0,0,0,,但不要担心{\fs14}\NBut rest assured
+Dialogue: 0,0:20:35.32,0:20:38.83,Default,,0,0,0,,云九没了你们也会很好的{\fs14}\NCloud 9 will be fine without you.
+Dialogue: 0,0:20:39.12,0:20:40.98,Default,,0,0,0,,得了吧{\fs14}\Ncome on.
+Dialogue: 0,0:20:41.09,0:20:42.83,Default,,0,0,0,,总之 我会给你们的智能卡消磁{\fs14}\NAnyway, I’ve demagnetized your keycards,
+Dialogue: 0,0:20:42.92,0:20:45.47,Default,,0,0,0,,然后会把工资邮寄给你们{\fs14}\NAnd you will receive your final paychecks in the mail
+Dialogue: 0,0:20:45.60,0:20:47.78,Default,,0,0,0,,你们工作服的费用将从工资里扣除{\fs14}\NWith the costs of your vests deducted from them.
+Dialogue: 0,0:20:47.88,0:20:50.56,Default,,0,0,0,,这并不针对任何人 祝你们好运{\fs14}\NNothing personal. I wish you all luck,
+Dialogue: 0,0:20:50.80,0:20:53.03,Default,,0,0,0,,我得去管理我的商店了{\fs14}\NBut i've got a store to manage.
+Dialogue: 0,0:20:53.13,0:20:54.39,Default,,0,0,0,,谢谢{\fs14}\NThank you.
+Dialogue: 0,0:20:54.48,0:20:56.36,Default,,0,0,0,,这个消息真的让我振作了起来{\fs14}\NThis really cheered me up.
+Dialogue: 0,0:20:58.60,0:21:01.38,Default,,0,0,0,,祝你们今天棒棒哒{\fs14}\NOh, and have a heavenly day.
