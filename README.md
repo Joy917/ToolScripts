@@ -3,7 +3,7 @@
 #### 不定期更新中，如有疑问或建议请随时通过 Issues 联系 ^_^，欢迎star鼓励，谢谢！
 
 # 功能目录
-1. Superstore字幕转换中英对照剧本脚本--Superstore/
+1. 美剧Superstore字幕转换剧本脚本--Superstore/
 2. 常用函数封装模块--utils.py
    - common_log 捕获异常并打印错误信息
    - pprint 高亮打印，常用于调试
