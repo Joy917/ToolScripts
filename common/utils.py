@@ -6,8 +6,27 @@
 
 import os
 import io
+import re
 import sys
 from chardet.universaldetector import UniversalDetector
+
+
+def remove_line_comment(old_str: str, comment_mode: str):
+    """
+    去除行内注释
+    :param old_str: 原字符串
+    :param comment_mode: 注释符号
+    :return:
+    """
+    temp_str = new_str = old_str
+
+    if comment_mode not in old_str:
+        return new_str
+    for regex in ["\".+\"", "\'.+\'"]:
+        for s in re.findall(regex, old_str):
+            temp_str = temp_str.replace(s, "x" * len(s))
+    new_str = old_str[0:temp_str.index(comment_mode)]
+    return new_str
 
 
 def common_error(data: str):
@@ -17,7 +36,7 @@ def common_error(data: str):
     :return:
     """
     info = sys.exc_info()
-    print("{}:".format(data), str(info[0]), ",", str(info[1]))
+    print(f"{data}: {info[0]}, {info[1]}")
 
 
 def pprint(*args):
@@ -31,8 +50,8 @@ def pprint(*args):
         for arg in args:
             args_list.append(str(arg))
     data = " ".join(args_list)
-    print("\033[7;34;40m{}\033[4m".format(data), end="")  # 高亮蓝底白字
-    # print("\033[1;34m{}\033[4m".format(data), end="")  # 加粗黑底蓝字
+    print(f"\033[7;34;40m{data}\033[4m", end="")  # 高亮蓝底白字
+    # print(f"\033[1;34m{data}\033[4m", end="")  # 加粗黑底蓝字
 
 
 def get_file_enc(filepath: str) -> str:
@@ -79,5 +98,4 @@ def change_file_enc(files_dir: str, output_encoding="utf-8"):
 
 if __name__ == "__main__":
     # just for the test
-    # dir_path = "H:\Codes\Git-Projects\ToolScripts\Superstore\captions\S01"
-    pprint("123", 333)
+    pprint(remove_line_comment("12'3 \"//4\"5' 6  //  xxx", "//"))

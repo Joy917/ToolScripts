@@ -13,6 +13,8 @@ from common.utils import change_file_enc
 
 
 def exchange_captions_to_plays(captions_dir: str, des_dir=None):
+    content_parttern1 = re.compile(r"0,,([\u4E00-\u9FA5\w\s\"\'\-.\,\?\!\$]+)\\N\{\\fs14\}([\w\s\"\'\-.\,\?\!\$]+)")
+    content_parttern2 = re.compile(r"0,,([\u4E00-\u9FA5\w\s\"\'\-.\,\?\!\$]+)\{\\fs14\}\\N([\w\s\"\'\-.\,\?\!\$]+)")
     if des_dir is None:
         des_dir = captions_dir
     file_list = os.listdir(captions_dir)
@@ -43,8 +45,6 @@ def exchange_captions_to_plays(captions_dir: str, des_dir=None):
 
 
 if __name__ == '__main__':
-    content_parttern1 = re.compile(r"0,,([\u4E00-\u9FA5\w\s\"\'\-.\,\?\!\$]+)\\N\{\\fs14\}([\w\s\"\'\-.\,\?\!\$]+)")
-    content_parttern2 = re.compile(r"0,,([\u4E00-\u9FA5\w\s\"\'\-.\,\?\!\$]+)\{\\fs14\}\\N([\w\s\"\'\-.\,\?\!\$]+)")
     captions_dir = "H:\Codes\Git-Projects\ToolScripts\Superstore\captions\S01"
     des_dir = "H:\Codes\Git-Projects\ToolScripts\Superstore\plays"
     # change_file_enc(captions_dir)
