@@ -71,7 +71,7 @@ class Transfer:
                 with open(file=sub_file, mode="rb") as fr:
                     fw.write(fr.read())
 
-        print(f"{target_file_name} fit finished!")
+        print(f"{target_file_path} fit finished!")
 
 
 if __name__ == '__main__':
