@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date  : 2018/02/22 23:09
-# @Author: Joy
-# @IDE  : PyCharm
+# @Date   : 2018/02/22 23:09
+# @Author : Joy
+# @Desc   : 批量转换pyqt文件
 
 
 import os
 
 # 此处的path为UI文件存放的路径
-path = r'D:\SVNzhangy\fast-transfer\src'
+path = r'D:\Joy\fast-transfer\src'
 
 # 记录转换成功的文件数量
 count = 0

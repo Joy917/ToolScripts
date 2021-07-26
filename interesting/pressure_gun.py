@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date  : 2018/02/14 23:08
-# @Author: Joy
-# @IDE  : PyCharm
+# @Time    : 2018/02/14 23:08
+# @Author  : Joy
+# @Version : python3.9
+# @Desc    : 吃鸡压枪脚本，可以快速单点可以长按，按backspace退格键开启和关闭
 
 
-"""
-   吃鸡压枪脚本，可以快速单点可以长按，按backspace退格键开启和关闭
-"""
 import threading
 from pynput.mouse import Button, Listener, Controller
 from pynput import keyboard
 import time
+
 
 # 记录操作指令
 # 射击
@@ -27,8 +26,6 @@ controller = Controller()
 """
 鼠标事件
 """
-
-
 def mouse_click(x, y, button, pressed):
     global shoot
     global scope
@@ -43,7 +40,6 @@ def mouse_click(x, y, button, pressed):
     if not pressed and button == Button.left:
         shoot = 0
 
-
 # 监控鼠标位置
 def mouse_move(x, y):
     print(x, y)
@@ -52,8 +48,6 @@ def mouse_move(x, y):
 """
 键盘事件
 """
-
-
 def keyboard_release(key):
     global status
     if key == keyboard.Key.backspace:
@@ -64,8 +58,6 @@ def keyboard_release(key):
 """
 监听事件方法
 """
-
-
 def mouseListener():
     with Listener(on_click=mouse_click, on_move=mouse_move) as listener:
         listener.join()

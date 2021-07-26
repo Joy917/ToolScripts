@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date  : 2019/4/11 23:06
-# @Author: Joy
-# @IDE  : PyCharm
+# @Date   : 2019/4/11 23:06
+# @Author : Joy
+# @Desc   : 常用方法工具类
 
 import os
 import io

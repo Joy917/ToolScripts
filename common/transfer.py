@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date  : 2020/11/16 20:33
-# @Author: Joy
-# @IDE  : PyCharm
+# @Date   : 2020/11/16 20:33
+# @Author : Joy
+# @Desc   : 大文件切分、合并方法封装
 
 
-import os, re
+import os
+import re
 
 
 def normal_path(*args):
