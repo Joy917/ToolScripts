@@ -13,12 +13,31 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 
+def translate(text, target_language="zh-CN"):
+    """
+    机翻入口方法，多次翻译避免网络问题
+    :param text: 待翻译内容
+    :param target_language: 目标语言
+    :return: 翻译结果
+    """
+    driver = get_webdriver()
+    result = ""
+    for i in range(2):
+        result = translate_with_webdriver(text, driver, target_language=target_language)
+        if result.strip() != "":
+            break
+    driver.quit()
+    if result.strip() == "":
+        result = translate_with_api(text)
+    return result
+
+
 def translate_with_api(text, target_language="zh-CN"):
     """
     请求谷歌翻译接口，次数过多会被限制访问，大概在20次左右
-    :param text:
-    :param target_language: 目标
-    :return:
+    :param text: 待翻译内容
+    :param target_language: 目标语言
+    :return: 翻译结果
     """
     result = ""
     header = {
@@ -35,7 +54,7 @@ def translate_with_api(text, target_language="zh-CN"):
         try:
             r = requests.get(url + urlencode(params), headers=header)
             if r.status_code == 200:
-                # 拼接语义分割的各部分
+                # 拼接语义断句的各部分
                 for item in r.json()[0]:
                     result += item[0]
         except:
@@ -43,34 +62,18 @@ def translate_with_api(text, target_language="zh-CN"):
     return result
 
 
-def get_webdriver():
-    # 模拟浏览器登录
-    options = webdriver.ChromeOptions()
-    # 关闭可视化
-    options.add_argument('--headless')
-    # 关闭图片视频加载
-    options.add_argument('blink-settings=imagesEnabled=false')
-    driver = webdriver.Chrome(DRIVER_PATH, options=options)
-    return driver
-
-
-def translate(text, target_language="zh-CN"):
-    driver = get_webdriver()
-    result = ""
-    for i in range(2):
-        result = translate_with_webdriver(text, driver, target_language=target_language)
-        if result.strip() != "":
-            break
-    driver.quit()
-    if result.strip() == "":
-        result = translate_with_api(text)
-    return result
-
-
 def translate_with_webdriver(text, driver, target_language="zh-CN"):
+    """
+    模拟浏览器翻译
+    :param text: 待翻译内容
+    :param driver: 浏览器驱动
+    :param target_language: 目标语言
+    :return: 翻译结果
+    """
     result = ""
     if text and isinstance(text, str) and text.strip() != "":
         # 超过5000字符需要多次翻译
+        # TODO：非自然语义断句需处理
         if len(text) > 5000:
             count = len(text) // 5000 + 1
             temp_result = ""
@@ -91,9 +94,78 @@ def translate_with_webdriver(text, driver, target_language="zh-CN"):
     return result
 
 
+def get_webdriver():
+    # 模拟浏览器登录
+    options = webdriver.ChromeOptions()
+    # 加速：关闭可视化
+    options.add_argument('--headless')
+    # 加速：关闭图片视频加载
+    options.add_argument('blink-settings=imagesEnabled=false')
+    driver = webdriver.Chrome(DRIVER_PATH, options=options)
+    return driver
+
+
 def project_dir():
-    # D:\projects\News-Spider
+    # D:\projects\ToolScripts
     return os.path.abspath(os.path.dirname(__file__))
 
 
-DRIVER_PATH = os.path.join(project_dir(), "dependency/chromedriver.exe")
+# chrome 浏览器驱动路径
+DRIVER_PATH = os.path.join(project_dir(), "chromedriver.exe")
+
+# 支持语言缩写对照表
+SUPPORT_LANGUAGE = {'afrikaans': 'af',
+                    'arabic': 'ar',
+                    'belarusian': 'be',
+                    'bulgarian': 'bg',
+                    'catalan': 'ca',
+                    'czech': 'cs',
+                    'welsh': 'cy',
+                    'danish': 'da',
+                    'german': 'de',
+                    'greek': 'el',
+                    'english': 'en',
+                    'esperanto': 'eo',
+                    'spanish': 'es',
+                    'estonian': 'et',
+                    'persian': 'fa',
+                    'finnish': 'fi',
+                    'french': 'fr',
+                    'irish': 'ga',
+                    'galician': 'gl',
+                    'hindi': 'hi',
+                    'croatian': 'hr',
+                    'hungarian': 'hu',
+                    'indonesian': 'id',
+                    'icelandic': 'is',
+                    'italian': 'it',
+                    'hebrew': 'iw',
+                    'japanese': 'ja',
+                    'korean': 'ko',
+                    'latin': 'la',
+                    'lithuanian': 'lt',
+                    'latvian': 'lv',
+                    'macedonian': 'mk',
+                    'malay': 'ms',
+                    'maltese': 'mt',
+                    'dutch': 'nl',
+                    'norwegian': 'no',
+                    'polish': 'pl',
+                    'portuguese': 'pt',
+                    'romanian': 'ro',
+                    'russian': 'ru',
+                    'slovak': 'sk',
+                    'slovenian': 'sl',
+                    'albanian': 'sq',
+                    'serbian': 'sr',
+                    'swedish': 'sv',
+                    'swahili': 'sw',
+                    'thai': 'th',
+                    'filipino': 'tl',
+                    'turkish': 'tr',
+                    'ukrainian': 'uk',
+                    'vietnamese': 'vi',
+                    'yiddish': 'yi',
+                    'chinese_simplified': 'zh-CN',
+                    'chinese_traditional': 'zh-TW',
+                    'auto': 'auto'}
