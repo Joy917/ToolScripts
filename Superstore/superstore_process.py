@@ -1,15 +1,13 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date  : 2019/4/10 23:19
-# @Author: Joy
-# @IDE  : PyCharm
+# @Date    : 2019/4/10 23:19
+# @Author  : Joy
+# @Version : python3.6
 
 import os
 import re
-import sys
 
 from common.utils import common_error
-from common.utils import change_file_enc
 
 
 def exchange_captions_to_plays(captions_dir: str, des_dir=None):

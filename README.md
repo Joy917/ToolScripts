@@ -1,6 +1,8 @@
 # ToolScripts
 常用工具脚本、自动化脚本、封装方法积累，具体使用见脚本中注释
 
+---
+
 ## 功能目录
 - Superstore/superstore_process.py 美剧Superstore字幕转换为剧本
 - common/utils.py 常用工具函数封装模块
@@ -17,5 +19,7 @@
 - professional/excel_handle.py Excel处理
 - interesting/pressure_gun.py 压枪脚本（鼠标键盘监控）
 - test/* 个人测试脚本
+- ...
 
+----
 #### 不定期更新中，如有疑问或建议请通过 Issues 联系 ^_^，欢迎MR，如果能赏一颗 Star 鼓励下就更好啦，谢谢！
